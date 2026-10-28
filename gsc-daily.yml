@@ -1,0 +1,31 @@
+name: Daily Search Console pull
+
+on:
+  schedule:
+    - cron: "30 1 * * *"   # 07:00 IST every day
+  workflow_dispatch:        # lets you run it by hand from the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  pull:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install google-api-python-client google-auth
+      - name: Pull Search Console
+        env:
+          GSC_SERVICE_ACCOUNT_JSON: ${{ secrets.GSC_SERVICE_ACCOUNT_JSON }}
+          GSC_SITE_URL: ${{ vars.GSC_SITE_URL || 'https://www.viact.ai/' }}
+        run: python seo-gsc/pull_gsc.py
+      - name: Save latest.json to the repo
+        run: |
+          git config user.name "gsc-bot"
+          git config user.email "gsc-bot@users.noreply.github.com"
+          git add seo-gsc/data/latest.json
+          git diff --cached --quiet || git commit -m "GSC pull $(date -u +%F)"
+          git push
