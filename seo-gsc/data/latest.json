@@ -1,11 +1,34 @@
 {
  "date": "2026-10-28",
- "fetchedAt": "2026-10-28T16:31:02+05:30",
+ "fetchedAt": "2026-10-28T17:01:23+05:30",
  "siteUrl": "https://www.viact.ai/",
  "window": "2026-09-28..2026-10-26",
  "queries": 675,
  "avgPosition": 8.9,
  "top10": 298,
+ "sitewide": {
+  "d28": {
+   "window": "2026-09-29..2026-10-26",
+   "clicks": 2289,
+   "impressions": 274643,
+   "ctr": 0.83,
+   "position": 15.7
+  },
+  "d7": {
+   "window": "2026-10-20..2026-10-26",
+   "clicks": 506,
+   "impressions": 73168,
+   "ctr": 0.69,
+   "position": 16.4
+  },
+  "d1": {
+   "window": "2026-10-26..2026-10-26",
+   "clicks": 78,
+   "impressions": 10764,
+   "ctr": 0.72,
+   "position": 14.5
+  }
+ },
  "striking": [
   {
    "q": "vision ai",
