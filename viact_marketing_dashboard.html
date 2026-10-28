@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>viAct Marketing OS</title>
+<link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;500;600;700;800&family=DM+Sans:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet"/>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --teal:#00C2C8;--teal2:#00A8B4;--td:rgba(0,194,200,.1);--tb:rgba(0,194,200,.22);--ts:rgba(0,194,200,.06);
+  --og:#E8740A;--og2:#FF8C2A;--od:rgba(232,116,10,.1);--ob:rgba(232,116,10,.22);--os:rgba(232,116,10,.06);
+  --bg:#000000;--bg2:#07100F;--bg3:#0C1A19;--bg4:#102320;--bg5:#152C29;
+  --bd:rgba(0,194,200,.09);--bd2:rgba(0,194,200,.17);--bd3:rgba(0,194,200,.28);
+  --tx:#BEE8EA;--tx2:#6ABBBF;--tx3:#2E6268;--tx4:#163438;
+  --fd:'Oxanium',sans-serif;--fn:'DM Sans',sans-serif;--fm:'JetBrains Mono',monospace;
+}
+html,body{height:100%;background:var(--bg);color:var(--tx);font-family:var(--fn);overflow:hidden}
+body{display:grid;grid-template-columns:256px 1fr;height:100vh}
+
+/* SIDEBAR */
+.sidebar{background:var(--bg2);border-right:1px solid var(--bd);display:flex;flex-direction:column;overflow:hidden;position:relative}
+.sidebar::before{content:'';position:absolute;top:0;left:0;right:0;height:180px;background:radial-gradient(ellipse at 50% -10%,rgba(0,194,200,.07) 0%,transparent 70%);pointer-events:none}
+
+.sb-logo{padding:20px 18px 16px;border-bottom:1px solid var(--bd);flex-shrink:0}
+.sb-logo img{height:34px;width:auto;object-fit:contain;display:block}
+.sb-sub{font-family:var(--fm);font-size:9px;letter-spacing:.1em;color:var(--teal2);background:var(--td);border:1px solid var(--tb);border-radius:4px;padding:3px 8px;margin-top:10px;display:inline-block}
+
+.sb-nav{flex:1;overflow-y:auto;padding:12px 8px 8px}
+.nav-grp{margin-bottom:4px}
+.nav-parent{display:flex;align-items:center;gap:9px;padding:10px 10px;border-radius:8px;cursor:pointer;transition:all .2s;border:1px solid transparent;background:none;width:100%;text-align:left;position:relative;overflow:hidden}
+.nav-parent::before{content:'';position:absolute;inset:0;opacity:0;transition:opacity .2s;background:linear-gradient(120deg,var(--ts),transparent);pointer-events:none}
+.nav-parent:hover::before,.nav-parent.open::before{opacity:1}
+.nav-parent:hover,.nav-parent.open{border-color:var(--bd2)}
+.nav-parent.open{border-color:var(--tb);background:var(--td)}
+.nav-ico{width:32px;height:32px;border-radius:7px;display:flex;align-items:center;justify-content:center;font-size:15px;flex-shrink:0;background:var(--bg3);border:1px solid var(--bd);transition:all .2s}
+.nav-parent:hover .nav-ico,.nav-parent.open .nav-ico{background:var(--td);border-color:var(--tb)}
+.nav-inf{flex:1;min-width:0}
+.nav-nm{font-family:var(--fd);font-size:12px;font-weight:600;color:var(--tx);letter-spacing:.01em;transition:color .2s}
+.nav-parent.open .nav-nm{color:var(--teal)}
+.nav-sm{font-size:10px;color:var(--tx3);margin-top:1px}
+.nav-cnt{font-family:var(--fm);font-size:8px;padding:2px 5px;border-radius:2px;background:var(--td);color:var(--teal2);border:1px solid var(--tb);flex-shrink:0}
+.nav-arr{font-size:9px;color:var(--tx3);transition:transform .25s,color .2s;flex-shrink:0}
+.nav-parent.open .nav-arr{transform:rotate(90deg);color:var(--teal)}
+
+.nav-kids{overflow:hidden;max-height:0;transition:max-height .3s ease}
+.nav-kids.open{max-height:280px}
+.nav-kid{display:flex;align-items:center;gap:8px;padding:7px 8px 7px 14px;border-radius:6px;cursor:pointer;transition:all .15s;margin-bottom:1px;border:1px solid transparent;background:none;width:100%;text-align:left}
+.nav-kid:hover{background:var(--bg3);border-color:var(--bd)}
+.nav-kid.active{background:var(--td);border-color:var(--tb)}
+.kid-dot{width:5px;height:5px;border-radius:50%;background:var(--tx4);flex-shrink:0;transition:all .15s}
+.nav-kid:hover .kid-dot,.nav-kid.active .kid-dot{background:var(--teal);box-shadow:0 0 5px var(--teal)}
+.kid-lbl{font-size:11px;font-weight:500;color:var(--tx2);transition:color .15s;flex:1}
+.nav-kid:hover .kid-lbl,.nav-kid.active .kid-lbl{color:var(--teal)}
+.kid-bd{font-family:var(--fm);font-size:8px;padding:2px 5px;border-radius:2px;flex-shrink:0}
+.br{background:var(--td);color:var(--teal2);border:1px solid var(--tb)}
+.bs{background:var(--bg4);color:var(--tx3);border:1px solid var(--bd)}
+
+.sb-foot{padding:10px;border-top:1px solid var(--bd);flex-shrink:0}
+.sf-row{display:flex;align-items:center;gap:7px;padding:7px 9px;background:var(--bg3);border:1px solid var(--bd);border-radius:6px}
+.sf-d{width:5px;height:5px;border-radius:50%;background:var(--teal);box-shadow:0 0 5px var(--teal);animation:glow 2s infinite}
+@keyframes glow{0%,100%{opacity:1}50%{opacity:.3}}
+.sf-l{font-family:var(--fm);font-size:9px;color:var(--teal2)}
+.sf-v{margin-left:auto;font-family:var(--fm);font-size:8px;color:var(--tx3)}
+
+/* MAIN */
+.main{display:flex;flex-direction:column;overflow:hidden}
+.topbar{height:52px;flex-shrink:0;background:var(--bg2);border-bottom:1px solid var(--bd);display:flex;align-items:center;padding:0 24px;gap:10px}
+.tb-path{display:flex;align-items:center;gap:5px;font-family:var(--fm);font-size:10px}
+.tb-s{color:var(--tx3)}.tb-d{color:var(--tx4)}.tb-a{color:var(--teal)}
+.tb-r{margin-left:auto;display:flex;align-items:center;gap:8px}
+.tb-chip{display:flex;align-items:center;gap:4px;font-family:var(--fm);font-size:9px;padding:3px 8px;border-radius:3px;background:var(--td);color:var(--teal2);border:1px solid var(--tb)}
+.td-dot{width:4px;height:4px;border-radius:50%;background:var(--teal);box-shadow:0 0 4px var(--teal)}
+.tb-dt{font-family:var(--fm);font-size:9px;color:var(--tx3)}
+
+.content{flex:1;overflow-y:auto;padding:28px 28px 40px}
+::-webkit-scrollbar{width:3px}
+::-webkit-scrollbar-track{background:transparent}
+::-webkit-scrollbar-thumb{background:var(--bd2);border-radius:2px}
+
+/* HOME */
+.welcome{margin-bottom:28px}
+.we-eyebrow{font-family:var(--fm);font-size:9px;letter-spacing:.1em;color:var(--teal2);text-transform:uppercase;margin-bottom:10px;display:flex;align-items:center;gap:8px}
+.we-eyebrow::before{content:'';width:18px;height:1px;background:var(--teal2)}
+.welcome h1{font-family:var(--fd);font-size:28px;font-weight:800;letter-spacing:-.02em;line-height:1.2;margin-bottom:10px;color:var(--tx)}
+.welcome h1 em{color:var(--teal);font-style:normal}
+.welcome p{font-size:13px;color:var(--tx2);max-width:520px;line-height:1.65}
+
+.stats-row{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:24px}
+.sc{background:var(--bg2);border:1px solid var(--bd);border-radius:10px;padding:14px 16px}
+.sc-v{font-family:var(--fd);font-size:24px;font-weight:800;line-height:1;margin-bottom:3px}
+.sc-l{font-family:var(--fm);font-size:8px;letter-spacing:.07em;color:var(--tx3);text-transform:uppercase}
+.sc-s{font-size:10px;color:var(--tx3);margin-top:2px}
+
+.cat-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.cat{background:var(--bg2);border:1px solid var(--bd);border-radius:12px;overflow:hidden;cursor:pointer;transition:all .2s;position:relative}
+.cat:hover{transform:translateY(-2px)}
+.cat-t:hover{border-color:var(--tb);box-shadow:0 8px 32px rgba(0,194,200,.08)}
+.cat-o:hover{border-color:var(--ob);box-shadow:0 8px 32px rgba(232,116,10,.08)}
+.cat-glow{position:absolute;top:-50px;right:-50px;width:180px;height:180px;border-radius:50%;opacity:0;transition:opacity .3s;pointer-events:none}
+.cat-t:hover .cat-glow{opacity:1;background:radial-gradient(circle,rgba(0,194,200,.1) 0%,transparent 70%)}
+.cat-o:hover .cat-glow{opacity:1;background:radial-gradient(circle,rgba(232,116,10,.1) 0%,transparent 70%)}
+.cat-hd{padding:18px 18px 14px;border-bottom:1px solid var(--bd);display:flex;align-items:flex-start;gap:12px}
+.cat-ico{width:44px;height:44px;border-radius:9px;display:flex;align-items:center;justify-content:center;font-size:20px;flex-shrink:0}
+.ci-t{background:var(--td);border:1px solid var(--tb)}
+.ci-o{background:var(--od);border:1px solid var(--ob)}
+.cat-info h3{font-family:var(--fd);font-size:15px;font-weight:700;color:var(--tx);margin-bottom:3px;letter-spacing:-.01em}
+.cat-info p{font-size:11px;color:var(--tx2);line-height:1.5}
+.cat-list{padding:0}
+.cat-row{display:flex;align-items:center;gap:9px;padding:9px 18px;border-bottom:1px solid var(--bd);transition:background .12s}
+.cat-row:last-child{border:none}
+.cat-row:hover{background:var(--bg3)}
+.cr-n{font-family:var(--fm);font-size:8px;color:var(--tx3);width:16px;text-align:center}
+.cr-dot{width:5px;height:5px;border-radius:50%;flex-shrink:0}
+.cr-name{font-size:11px;font-weight:500;color:var(--tx2);flex:1}
+.cr-bd{font-family:var(--fm);font-size:8px;padding:2px 5px;border-radius:2px}
+.cat-foot{padding:10px 18px;display:flex;align-items:center;justify-content:space-between}
+.cf-c{font-family:var(--fm);font-size:9px;color:var(--tx3)}
+.cf-cta{font-family:var(--fd);font-size:10px;font-weight:600;display:flex;align-items:center;gap:4px;letter-spacing:.02em}
+.cta-t{color:var(--teal)}.cta-o{color:var(--og2)}
+
+/* AGENT PANEL */
+.ph{display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:420px;text-align:center;padding:40px;position:relative;overflow:hidden}
+.ph-ring{width:76px;height:76px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:30px;margin-bottom:18px;position:relative}
+.ph-ring::after{content:'';position:absolute;inset:-10px;border-radius:50%;border:1px solid;opacity:.35;animation:rp 3s infinite}
+@keyframes rp{0%{transform:scale(1);opacity:.35}100%{transform:scale(1.35);opacity:0}}
+.ph-lbl{font-family:var(--fm);font-size:9px;letter-spacing:.1em;text-transform:uppercase;margin-bottom:8px}
+.ph h2{font-family:var(--fd);font-size:20px;font-weight:700;color:var(--tx);margin-bottom:9px;letter-spacing:-.01em}
+.ph p{font-size:12px;color:var(--tx2);max-width:440px;line-height:1.6;margin-bottom:18px}
+.ph-tags{display:flex;flex-wrap:wrap;justify-content:center;gap:6px;margin-bottom:22px}
+.ph-tag{font-family:var(--fm);font-size:9px;padding:4px 11px;border-radius:16px;display:inline-block}
+.launch-btn{font-family:var(--fd);font-size:12px;font-weight:700;padding:10px 22px;border-radius:7px;border:none;cursor:pointer;letter-spacing:.04em;transition:all .15s}
+.launch-btn:hover{transform:translateY(-1px);filter:brightness(1.1)}
+.soon-pill{font-family:var(--fm);font-size:9px;padding:7px 18px;border-radius:20px;background:var(--bg3);color:var(--tx3);border:1px solid var(--bd);display:inline-flex;align-items:center;gap:6px}
+
+/* AUDIT REPORT */
+.ar-header{display:flex;align-items:flex-start;justify-content:space-between;background:var(--bg2);border:1px solid var(--bd);border-radius:12px;padding:20px 24px;margin-bottom:18px}
+.arh-eyebrow{font-family:var(--fm);font-size:9px;letter-spacing:.08em;color:var(--tx3);text-transform:uppercase;margin-bottom:8px}
+.arh-title{font-family:var(--fd);font-size:20px;font-weight:700;color:var(--tx);margin-bottom:5px}
+.arh-sub{font-size:11px;color:var(--tx3)}
+.arh-score{text-align:right;flex-shrink:0}
+.arh-num{font-family:var(--fd);font-size:52px;font-weight:800;line-height:1;color:var(--og2)}
+.arh-denom{font-family:var(--fm);font-size:12px;color:var(--tx3);margin-top:-4px}
+.arh-rating{font-family:var(--fm);font-size:10px;font-weight:600;letter-spacing:.1em;padding:4px 10px;border-radius:4px;margin-top:8px;display:inline-block}
+.arh-rating.poor{background:var(--od);color:var(--og2);border:1px solid var(--ob)}
+.ar-tabs{display:flex;gap:4px;margin-bottom:16px;background:var(--bg2);border:1px solid var(--bd);border-radius:8px;padding:4px}
+.ar-tab{font-family:var(--fd);font-size:11px;font-weight:600;padding:7px 16px;border-radius:6px;border:none;cursor:pointer;background:none;color:var(--tx3);transition:all .15s;letter-spacing:.02em}
+.ar-tab.active{background:var(--td);color:var(--teal);border:1px solid var(--tb)}
+.ar-tab:hover:not(.active){color:var(--tx);background:var(--bg3)}
+.score-grid{display:flex;flex-direction:column;gap:8px;margin-bottom:20px}
+.score-row{display:grid;grid-template-columns:220px 1fr 48px;align-items:center;gap:14px;background:var(--bg2);border:1px solid var(--bd);border-radius:8px;padding:10px 14px}
+.sr-label{display:flex;align-items:center;gap:10px}
+.sr-ico{font-size:15px;flex-shrink:0}
+.sr-name{font-size:12px;font-weight:500;color:var(--tx)}
+.sr-wt{font-family:var(--fm);font-size:8px;color:var(--tx3);margin-top:2px}
+.sr-bar-wrap{height:6px;background:var(--bg4);border-radius:3px;overflow:hidden}
+.sr-bar{height:100%;background:var(--teal);border-radius:3px}
+.sr-bar.poor-bar{background:var(--og2)}
+.sr-bar.crit-bar{background:#e05050}
+.sr-bar.good-bar{background:#00c278}
+.sr-val{font-family:var(--fd);font-size:15px;font-weight:700;text-align:right}
+.sr-val.teal{color:var(--teal)}.sr-val.orange{color:var(--og2)}
+.platform-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:10px}
+.pf-card{background:var(--bg2);border:1px solid var(--bd);border-radius:8px;padding:12px;text-align:center}
+.pf-name{font-size:10px;color:var(--tx3);margin-bottom:6px;line-height:1.3}
+.pf-score{font-family:var(--fd);font-size:18px;font-weight:800}
+.issue-section{margin-bottom:18px}
+.is-hd{font-family:var(--fd);font-size:11px;font-weight:700;letter-spacing:.04em;padding:8px 14px;border-radius:6px;margin-bottom:8px}
+.critical-hd{background:rgba(224,80,80,.1);color:#e05050;border:1px solid rgba(224,80,80,.2)}
+.high-hd{background:var(--od);color:var(--og2);border:1px solid var(--ob)}
+.med-hd{background:rgba(200,180,0,.08);color:#b8b000;border:1px solid rgba(200,180,0,.2)}
+.issue-row{display:flex;align-items:flex-start;gap:12px;padding:10px 14px;background:var(--bg2);border:1px solid var(--bd);border-radius:8px;margin-bottom:6px}
+.isev{font-family:var(--fm);font-size:8px;font-weight:700;padding:3px 7px;border-radius:3px;flex-shrink:0;margin-top:1px;letter-spacing:.05em;white-space:nowrap}
+.isev.crit{background:rgba(224,80,80,.15);color:#e05050;border:1px solid rgba(224,80,80,.3)}
+.isev.high{background:var(--od);color:var(--og2);border:1px solid var(--ob)}
+.isev.med{background:rgba(200,180,0,.1);color:#b8b000;border:1px solid rgba(200,180,0,.25)}
+.is-title{font-size:12px;font-weight:500;color:var(--tx);margin-bottom:3px}
+.is-desc{font-size:11px;color:var(--tx3);line-height:1.5}
+.wins-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.win-card{display:flex;gap:12px;background:var(--bg2);border:1px solid var(--bd);border-radius:8px;padding:14px}
+.win-num{font-family:var(--fd);font-size:22px;font-weight:800;color:var(--teal);opacity:.35;flex-shrink:0;line-height:1;min-width:28px}
+.win-title{font-size:12px;font-weight:500;color:var(--tx);margin-bottom:5px;line-height:1.4}
+.win-impact{font-family:var(--fm);font-size:9px;color:var(--tx3)}
+.plan-week{margin-bottom:14px;background:var(--bg2);border:1px solid var(--bd);border-radius:10px;overflow:hidden}
+.pw-hd{display:flex;align-items:center;gap:12px;padding:11px 16px;border-bottom:1px solid var(--bd);background:var(--bg3)}
+.pw-n{font-family:var(--fd);font-size:11px;font-weight:700;color:var(--teal);background:var(--td);border:1px solid var(--tb);padding:3px 10px;border-radius:4px}
+.pw-theme{font-family:var(--fd);font-size:12px;font-weight:600;color:var(--tx)}
+.pw-tasks{padding:8px 16px}
+.pw-task{display:flex;align-items:flex-start;gap:10px;padding:7px 0;border-bottom:1px solid var(--bd);font-size:11px;color:var(--tx2);line-height:1.4}
+.pw-task:last-child{border:none}
+.pt-dot{width:5px;height:5px;border-radius:50%;background:var(--teal);flex-shrink:0;margin-top:4px}
+.run-btn{font-family:var(--fd);font-size:11px;font-weight:700;padding:9px 18px;border-radius:7px;border:none;cursor:pointer;background:var(--teal);color:#000;letter-spacing:.04em;transition:all .15s;display:flex;align-items:center;gap:6px;flex-shrink:0}
+.run-btn:hover{filter:brightness(1.1);transform:translateY(-1px)}
+.run-btn:disabled{opacity:.5;cursor:not-allowed;transform:none}
+.run-btn.running{background:var(--td);color:var(--teal);border:1px solid var(--tb)}
+.run-btn.done{background:rgba(0,194,120,.15);color:#00c278;border:1px solid rgba(0,194,120,.3)}
+.arh-top{display:flex;align-items:flex-start;justify-content:space-between;gap:16px}
+.ar-progress{margin-top:14px;background:var(--bg3);border:1px solid var(--bd);border-radius:8px;padding:12px 16px;display:none}
+.ar-progress.active{display:block}
+.ap-title{font-family:var(--fm);font-size:9px;letter-spacing:.08em;color:var(--teal2);text-transform:uppercase;margin-bottom:10px}
+.ap-steps{display:flex;flex-direction:column;gap:6px}
+.ap-step{display:flex;align-items:center;gap:10px;font-size:11px;color:var(--tx3);transition:color .2s}
+.ap-step.active{color:var(--tx)}
+.ap-step.done{color:var(--teal)}
+.ap-dot{width:6px;height:6px;border-radius:50%;background:var(--bg4);border:1px solid var(--bd);flex-shrink:0;transition:all .2s}
+.ap-step.active .ap-dot{background:var(--og2);border-color:var(--og2);box-shadow:0 0 6px var(--og2);animation:glow 1s infinite}
+.ap-step.done .ap-dot{background:var(--teal);border-color:var(--teal);box-shadow:0 0 4px var(--teal)}
+.ap-bar-wrap{flex:1;height:3px;background:var(--bg4);border-radius:2px;overflow:hidden}
+.ap-bar{height:100%;background:var(--teal);border-radius:2px;width:0%;transition:width 1.5s ease}
+.ar-last-run{font-family:var(--fm);font-size:9px;color:var(--tx3);margin-top:6px}
+</style>
+</head>
+<body>
+
+<div class="sidebar">
+  <div class="sb-logo">
+    <img src="data:image/png;base64,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" alt="viAct Logo"/>
+    <div class="sb-sub">Marketing OS &nbsp;·&nbsp; v1.0</div>
+  </div>
+
+  <div class="sb-nav">
+    <!-- SEO AGENTS -->
+    <div class="nav-grp">
+      <div class="nav-parent" id="nav-seo" onclick="toggleNav('seo')">
+        <div class="nav-ico">📊</div>
+        <div class="nav-inf">
+          <div class="nav-nm">SEO Agents</div>
+          <div class="nav-sm">Analytics · Audits · Rankings</div>
+        </div>
+        <span class="nav-cnt">4</span>
+        <span class="nav-arr">▶</span>
+      </div>
+      <div class="nav-kids" id="kids-seo">
+        <button class="nav-kid" onclick="showAgent('ga4',this)"><div class="kid-dot"></div><span class="kid-lbl">GA4 Report Agent</span><span class="kid-bd br">ready</span></button>
+        <button class="nav-kid" onclick="showAgent('gsc',this)"><div class="kid-dot"></div><span class="kid-lbl">Search Console Agent</span><span class="kid-bd bs">soon</span></button>
+        <button class="nav-kid" onclick="showAgent('audit',this)"><div class="kid-dot"></div><span class="kid-lbl">Audit Report Agent</span><span class="kid-bd br">ready</span></button>
+        <button class="nav-kid" onclick="showAgent('broken',this)"><div class="kid-dot"></div><span class="kid-lbl">Broken Link Agent</span><span class="kid-bd bs">soon</span></button>
+      </div>
+    </div>
+
+    <!-- CONTENT WRITING -->
+    <div class="nav-grp">
+      <div class="nav-parent" id="nav-content" onclick="toggleNav('content')">
+        <div class="nav-ico">✍️</div>
+        <div class="nav-inf">
+          <div class="nav-nm">Content Writing</div>
+          <div class="nav-sm">Social · Blog · LinkedIn · PR</div>
+        </div>
+        <span class="nav-cnt">4</span>
+        <span class="nav-arr">▶</span>
+      </div>
+      <div class="nav-kids" id="kids-content">
+        <button class="nav-kid" onclick="showAgent('social',this)"><div class="kid-dot"></div><span class="kid-lbl">Social Media Content</span><span class="kid-bd bs">soon</span></button>
+        <button class="nav-kid" onclick="showAgent('blog',this)"><div class="kid-dot"></div><span class="kid-lbl">Blog Content</span><span class="kid-bd bs">soon</span></button>
+        <button class="nav-kid" onclick="showAgent('linkedin',this)"><div class="kid-dot"></div><span class="kid-lbl">LinkedIn Article</span><span class="kid-bd bs">soon</span></button>
+        <button class="nav-kid" onclick="showAgent('pr',this)"><div class="kid-dot"></div><span class="kid-lbl">PR Content</span><span class="kid-bd bs">soon</span></button>
+      </div>
+    </div>
+  </div>
+
+  <div class="sb-foot">
+    <div class="sf-row">
+      <div class="sf-d"></div>
+      <span class="sf-l">Marketing OS &nbsp;·&nbsp; Live</span>
+      <span class="sf-v">v1.0.0</span>
+    </div>
+  </div>
+</div>
+
+<!-- MAIN -->
+<div class="main">
+  <div class="topbar">
+    <div class="tb-path">
+      <span class="tb-s">viAct</span><span class="tb-d"> / </span>
+      <span class="tb-a" id="tb-path">Marketing OS</span>
+    </div>
+    <div class="tb-r">
+      <div class="tb-chip"><div class="td-dot"></div>AI Powered</div>
+      <div class="tb-chip"><div class="td-dot"></div>Claude Sonnet 4</div>
+      <span class="tb-dt" id="tb-dt"></span>
+    </div>
+  </div>
+
+  <div class="content">
+
+    <!-- HOME VIEW -->
+    <div id="view-home">
+      <div class="welcome">
+        <div class="we-eyebrow">viAct Marketing Operating System</div>
+        <h1>Your AI Marketing<br/><em>Command Centre</em></h1>
+        <p>Autonomous AI agents for SEO performance, content strategy, and marketing intelligence — built for viAct's growth team.</p>
+      </div>
+
+      <div class="stats-row">
+        <div class="sc"><div class="sc-v" style="color:var(--teal)">2</div><div class="sc-l">Agent Groups</div><div class="sc-s">SEO · Content</div></div>
+        <div class="sc"><div class="sc-v" style="color:var(--teal)">8</div><div class="sc-l">Total Agents</div><div class="sc-s">4 SEO · 4 Content</div></div>
+        <div class="sc"><div class="sc-v" style="color:var(--og2)">2</div><div class="sc-l">Live Now</div><div class="sc-s">GA4 · Audit Report</div></div>
+        <div class="sc"><div class="sc-v" style="color:var(--tx2)">6</div><div class="sc-l">In Progress</div><div class="sc-s">Building next</div></div>
+      </div>
+
+      <div class="cat-grid">
+        <div class="cat cat-t" onclick="openGroup('seo')">
+          <div class="cat-glow"></div>
+          <div class="cat-hd">
+            <div class="cat-ico ci-t">📊</div>
+            <div class="cat-info"><h3>SEO Agents</h3><p>Automated analytics, performance reporting, site health audits and technical SEO powered by AI.</p></div>
+          </div>
+          <div class="cat-list">
+            <div class="cat-row"><span class="cr-n">01</span><div class="cr-dot" style="background:var(--teal)"></div><span class="cr-name">GA4 Report Agent</span><span class="cr-bd br">ready</span></div>
+            <div class="cat-row"><span class="cr-n">02</span><div class="cr-dot" style="background:var(--teal)"></div><span class="cr-name">Google Search Console Agent</span><span class="cr-bd bs">soon</span></div>
+            <div class="cat-row"><span class="cr-n">03</span><div class="cr-dot" style="background:var(--teal)"></div><span class="cr-name">Audit Report Agent</span><span class="cr-bd br">ready</span></div>
+            <div class="cat-row"><span class="cr-n">04</span><div class="cr-dot" style="background:var(--teal)"></div><span class="cr-name">Broken Link Agent</span><span class="cr-bd bs">soon</span></div>
+          </div>
+          <div class="cat-foot"><span class="cf-c">4 agents total</span><span class="cf-cta cta-t">Open SEO →</span></div>
+        </div>
+
+        <div class="cat cat-o" onclick="openGroup('content')">
+          <div class="cat-glow"></div>
+          <div class="cat-hd">
+            <div class="cat-ico ci-o">✍️</div>
+            <div class="cat-info"><h3>Content Writing</h3><p>AI-generated content for every channel — social, blog, LinkedIn thought leadership and PR outreach.</p></div>
+          </div>
+          <div class="cat-list">
+            <div class="cat-row"><span class="cr-n">01</span><div class="cr-dot" style="background:var(--og2)"></div><span class="cr-name">Social Media Content</span><span class="cr-bd bs">soon</span></div>
+            <div class="cat-row"><span class="cr-n">02</span><div class="cr-dot" style="background:var(--og2)"></div><span class="cr-name">Blog Content</span><span class="cr-bd bs">soon</span></div>
+            <div class="cat-row"><span class="cr-n">03</span><div class="cr-dot" style="background:var(--og2)"></div><span class="cr-name">LinkedIn Article Content</span><span class="cr-bd bs">soon</span></div>
+            <div class="cat-row"><span class="cr-n">04</span><div class="cr-dot" style="background:var(--og2)"></div><span class="cr-name">PR Content</span><span class="cr-bd bs">soon</span></div>
+          </div>
+          <div class="cat-foot"><span class="cf-c">4 agents total</span><span class="cf-cta cta-o">Open Content →</span></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- AGENT VIEW -->
+    <div id="view-agent" style="display:none">
+      <div class="ph" id="ph-inner"></div>
+    </div>
+
+    <!-- AUDIT REPORT VIEW -->
+    <div id="view-audit" style="display:none">
+      <div class="ar-header">
+        <div class="arh-top">
+          <div class="arh-left">
+            <div class="arh-eyebrow">GEO Audit Report &nbsp;·&nbsp; viact.ai &nbsp;·&nbsp; 5 Specialist Agents</div>
+            <div class="arh-title">🛡️ Audit Report Agent</div>
+            <div class="arh-sub">8-dimension GEO + SEO analysis &nbsp;·&nbsp; 40+ pages crawled &nbsp;·&nbsp; AI Citability · Brand Authority · E-E-A-T · Technical · Schema · Platform</div>
+            <div class="ar-last-run" id="ar-last-run">Last run: 30 Apr 2026, 12:00</div>
+          </div>
+          <div style="display:flex;flex-direction:column;align-items:flex-end;gap:12px">
+            <div class="arh-score">
+              <div class="arh-num" id="ar-score-num">45</div>
+              <div class="arh-denom">/100</div>
+              <div class="arh-rating poor" id="ar-score-rating">POOR</div>
+            </div>
+            <button class="run-btn" id="run-audit-btn" onclick="runAuditAgent()">▶ Run Agent</button>
+          </div>
+        </div>
+        <div class="ar-progress" id="ar-progress">
+          <div class="ap-title">Running GEO Audit — viact.ai</div>
+          <div class="ap-steps">
+            <div class="ap-step" id="ap-0"><span class="ap-dot"></span><span class="ap-lbl">Fetching homepage, robots.txt, sitemap...</span><div class="ap-bar-wrap"><div class="ap-bar" id="apb-0"></div></div></div>
+            <div class="ap-step" id="ap-1"><span class="ap-dot"></span><span class="ap-lbl">Agent 1 — AI Citability &amp; Brand Authority</span><div class="ap-bar-wrap"><div class="ap-bar" id="apb-1"></div></div></div>
+            <div class="ap-step" id="ap-2"><span class="ap-dot"></span><span class="ap-lbl">Agent 2 — Platform Optimization (ChatGPT · Perplexity · Gemini · Copilot)</span><div class="ap-bar-wrap"><div class="ap-bar" id="apb-2"></div></div></div>
+            <div class="ap-step" id="ap-3"><span class="ap-dot"></span><span class="ap-lbl">Agent 3 — Technical GEO Infrastructure</span><div class="ap-bar-wrap"><div class="ap-bar" id="apb-3"></div></div></div>
+            <div class="ap-step" id="ap-4"><span class="ap-dot"></span><span class="ap-lbl">Agent 4 — Content E-E-A-T Quality</span><div class="ap-bar-wrap"><div class="ap-bar" id="apb-4"></div></div></div>
+            <div class="ap-step" id="ap-5"><span class="ap-dot"></span><span class="ap-lbl">Agent 5 — Schema &amp; Structured Data</span><div class="ap-bar-wrap"><div class="ap-bar" id="apb-5"></div></div></div>
+            <div class="ap-step" id="ap-6"><span class="ap-dot"></span><span class="ap-lbl">Compiling scores &amp; generating report...</span><div class="ap-bar-wrap"><div class="ap-bar" id="apb-6"></div></div></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="ar-tabs">
+        <button class="ar-tab active" onclick="arTab('scores',this)">Score Breakdown</button>
+        <button class="ar-tab" onclick="arTab('issues',this)">Issues</button>
+        <button class="ar-tab" onclick="arTab('wins',this)">Quick Wins</button>
+        <button class="ar-tab" onclick="arTab('plan',this)">30-Day Plan</button>
+      </div>
+
+      <!-- SCORES TAB -->
+      <div class="ar-panel" id="arp-scores">
+        <div class="score-grid">
+          <div class="score-row"><div class="sr-label"><span class="sr-ico">🎯</span><div><div class="sr-name">AI Citability</div><div class="sr-wt">25% weight · weighted: 13.0</div></div></div><div class="sr-bar-wrap"><div class="sr-bar" style="width:52%"></div></div><div class="sr-val teal">52</div></div>
+          <div class="score-row"><div class="sr-label"><span class="sr-ico">🏷️</span><div><div class="sr-name">Brand Authority</div><div class="sr-wt">20% weight · weighted: 5.6</div></div></div><div class="sr-bar-wrap"><div class="sr-bar crit-bar" style="width:28%"></div></div><div class="sr-val orange">28</div></div>
+          <div class="score-row"><div class="sr-label"><span class="sr-ico">✍️</span><div><div class="sr-name">Content E-E-A-T</div><div class="sr-wt">20% weight · weighted: 10.4</div></div></div><div class="sr-bar-wrap"><div class="sr-bar" style="width:52%"></div></div><div class="sr-val teal">52</div></div>
+          <div class="score-row"><div class="sr-label"><span class="sr-ico">⚙️</span><div><div class="sr-name">Technical GEO</div><div class="sr-wt">15% weight · weighted: 9.15</div></div></div><div class="sr-bar-wrap"><div class="sr-bar good-bar" style="width:61%"></div></div><div class="sr-val teal">61</div></div>
+          <div class="score-row"><div class="sr-label"><span class="sr-ico">🗂️</span><div><div class="sr-name">Schema &amp; Structured Data</div><div class="sr-wt">10% weight · weighted: 2.8</div></div></div><div class="sr-bar-wrap"><div class="sr-bar crit-bar" style="width:28%"></div></div><div class="sr-val orange">28</div></div>
+          <div class="score-row"><div class="sr-label"><span class="sr-ico">🌐</span><div><div class="sr-name">Platform Optimization</div><div class="sr-wt">10% weight · weighted: 3.8</div></div></div><div class="sr-bar-wrap"><div class="sr-bar poor-bar" style="width:38%"></div></div><div class="sr-val orange">38</div></div>
+        </div>
+        <div class="platform-grid">
+          <div class="pf-card"><div class="pf-name">Google AI Overviews</div><div class="pf-score" style="color:var(--og2)">42/100</div></div>
+          <div class="pf-card"><div class="pf-name">ChatGPT Web Search</div><div class="pf-score" style="color:#e05050">30/100</div></div>
+          <div class="pf-card"><div class="pf-name">Perplexity AI</div><div class="pf-score" style="color:var(--og2)">38/100</div></div>
+          <div class="pf-card"><div class="pf-name">Google Gemini</div><div class="pf-score" style="color:var(--og2)">44/100</div></div>
+          <div class="pf-card"><div class="pf-name">Bing Copilot</div><div class="pf-score" style="color:var(--og2)">36/100</div></div>
+        </div>
+      </div>
+
+      <!-- ISSUES TAB -->
+      <div class="ar-panel" id="arp-issues" style="display:none">
+        <div class="issue-section">
+          <div class="is-hd critical-hd">🔴 Critical — Fix Immediately</div>
+          <div class="issue-row"><span class="isev crit">CRITICAL</span><div><div class="is-title">Homepage stats have zero sourcing</div><div class="is-desc">"95% Less Accidents", "70% Less Manpower Cost", "$1M Cost Per Injury" — no attribution, methodology or citation. AI systems will not cite unsourced safety claims.</div></div></div>
+          <div class="issue-row"><span class="isev crit">CRITICAL</span><div><div class="is-title">About/Team page returns 404</div><div class="is-desc">Both /about-us and /company return 404. No founder narrative, team bios, or leadership credentials discoverable. Single largest E-E-A-T gap on the site.</div></div></div>
+          <div class="issue-row"><span class="isev crit">CRITICAL</span><div><div class="is-title">llms.txt contains wrong content</div><div class="is-desc">The /llms.txt file is Wix's auto-generated MCP API docs — not a curated content index. AI crawlers receive API documentation instead of a guide to viAct's content and key pages.</div></div></div>
+          <div class="issue-row"><span class="isev crit">CRITICAL</span><div><div class="is-title">SoftwareApplication schema: fabricated price $1,000</div><div class="is-desc">Hard-coded placeholder price on all product/solution pages. Factually incorrect for enterprise B2B SaaS and violates Google's schema accuracy requirements.</div></div></div>
+        </div>
+        <div class="issue-section">
+          <div class="is-hd high-hd">🟠 High Priority — Fix Within 1 Week</div>
+          <div class="issue-row"><span class="isev high">HIGH</span><div><div class="is-title">No Wikipedia article for viAct</div><div class="is-desc">Wikipedia is the primary source AI models use for entity recognition. Without it, viAct is unknown to every major LLM. Existing TechCrunch, SCMP, WEF coverage meets notability threshold.</div></div></div>
+          <div class="issue-row"><span class="isev high">HIGH</span><div><div class="is-title">All 11 case studies fully anonymized</div><div class="is-desc">Every client is "Singapore Construction Giant" etc. Excellent metrics are uncitable because AI cannot verify anonymous outcomes. Named clients appear in homepage testimonials — not case studies.</div></div></div>
+          <div class="issue-row"><span class="isev high">HIGH</span><div><div class="is-title">Zero Article schema on blog &amp; whitepaper pages</div><div class="is-desc">All blog posts and research papers have no structured data at all — completely invisible to schema-aware AI systems. These are the pages viAct most needs AI to cite.</div></div></div>
+          <div class="issue-row"><span class="isev high">HIGH</span><div><div class="is-title">Author credentials not disclosed</div><div class="is-desc">Dr. Dorothy Dutta listed as Marketing Strategist (joined Oct 2025) with no disclosed doctoral field or institution. The Dr. title is a trust shortcut without substantiation.</div></div></div>
+          <div class="issue-row"><span class="isev high">HIGH</span><div><div class="is-title">Gated whitepaper invisible to AI (citability: 22/100)</div><div class="is-desc">/generativeai-and-chatgpt-for-construction-technology scores 22/100. All substantive content is locked behind a lead form — completely uncrawlable and uncitable by AI systems.</div></div></div>
+        </div>
+        <div class="issue-section">
+          <div class="is-hd med-hd">🟡 Medium Priority — Fix Within 1 Month</div>
+          <div class="issue-row"><span class="isev med">MEDIUM</span><div><div class="is-title">sameAs links on only 2 platforms (LinkedIn, Twitter)</div><div class="is-desc">Wikipedia, Wikidata, YouTube, Crunchbase all missing from Organization schema. AI models cannot build a complete entity graph for viAct without cross-platform verification.</div></div></div>
+          <div class="issue-row"><span class="isev med">MEDIUM</span><div><div class="is-title">robots.txt has syntax errors + no explicit AI crawler allowances</div><div class="is-desc">Empty User-agent blocks for Googlebot-Mobile, dotbot, AhrefsBot are syntactically malformed. No explicit GPTBot, ClaudeBot, PerplexityBot allow directives.</div></div></div>
+          <div class="issue-row"><span class="isev med">MEDIUM</span><div><div class="is-title">101 pages share identical lastmod date in sitemap</div><div class="is-desc">All static pages show 2026-04-28 — search engines treat uniform dates as auto-generated and unreliable freshness signals.</div></div></div>
+          <div class="issue-row"><span class="isev med">MEDIUM</span><div><div class="is-title">No G2 or Capterra listing</div><div class="is-desc">Neither platform returned a viAct listing. These are heavily weighted in AI responses to "best AI safety monitoring software" queries — a claimed listing with 10+ reviews could generate citations within 3-6 months.</div></div></div>
+          <div class="issue-row"><span class="isev med">MEDIUM</span><div><div class="is-title">Not registered with Bing Webmaster Tools / No IndexNow</div><div class="is-desc">Sitemap not actively submitted to Bing. Content updates not pushed proactively. 2-hour setup with permanent benefit for Bing Copilot and Perplexity indexing.</div></div></div>
+        </div>
+      </div>
+
+      <!-- QUICK WINS TAB -->
+      <div class="ar-panel" id="arp-wins" style="display:none">
+        <div class="wins-grid">
+          <div class="win-card"><div class="win-num">01</div><div class="win-body"><div class="win-title">Fix fabricated $1,000 price in SoftwareApplication schema on all product pages</div><div class="win-impact">⏱ 30 mins &nbsp;·&nbsp; Fixes critical schema error across all solution pages</div></div></div>
+          <div class="win-card"><div class="win-num">02</div><div class="win-body"><div class="win-title">Add visible publication dates to all blog posts and case studies</div><div class="win-impact">⏱ 1-2 hrs &nbsp;·&nbsp; Impacts ChatGPT, Perplexity, Google AIO, Bing Copilot freshness scoring</div></div></div>
+          <div class="win-card"><div class="win-num">03</div><div class="win-body"><div class="win-title">Register Bing Webmaster Tools + enable IndexNow</div><div class="win-impact">⏱ 2 hrs &nbsp;·&nbsp; Every new post pushed to Bing within minutes of publishing</div></div></div>
+          <div class="win-card"><div class="win-num">04</div><div class="win-body"><div class="win-title">Add author bylines with credentials to all blog posts</div><div class="win-impact">⏱ 2-3 hrs &nbsp;·&nbsp; Highest-impact content signal for ChatGPT citation preference</div></div></div>
+          <div class="win-card"><div class="win-num">05</div><div class="win-body"><div class="win-title">Rewrite llms.txt as a proper content index (replace Wix MCP API docs)</div><div class="win-impact">⏱ 3 hrs &nbsp;·&nbsp; AI crawlers get a guide to viAct's content, not API documentation</div></div></div>
+          <div class="win-card"><div class="win-num">06</div><div class="win-body"><div class="win-title">Fix robots.txt syntax errors + add explicit AI crawler allowances</div><div class="win-impact">⏱ 30 mins &nbsp;·&nbsp; Explicit Allow for GPTBot, ClaudeBot, PerplexityBot — removes ambiguity</div></div></div>
+          <div class="win-card"><div class="win-num">07</div><div class="win-body"><div class="win-title">Publish GenAI whitepaper as an ungated HTML blog post</div><div class="win-impact">⏱ 4 hrs &nbsp;·&nbsp; Content exists but is gated — publishing as HTML makes it citable by all AI platforms</div></div></div>
+          <div class="win-card"><div class="win-num">08</div><div class="win-body"><div class="win-title">Source the 3 headline homepage statistics</div><div class="win-impact">⏱ 2 hrs &nbsp;·&nbsp; Add citations or methodology footnotes to the 95% / 70% / $1M claims</div></div></div>
+        </div>
+      </div>
+
+      <!-- 30-DAY PLAN TAB -->
+      <div class="ar-panel" id="arp-plan" style="display:none">
+        <div class="plan-week">
+          <div class="pw-hd"><span class="pw-n">Week 1</span><span class="pw-theme">Fix Critical Issues</span></div>
+          <div class="pw-tasks">
+            <div class="pw-task"><span class="pt-dot"></span>Fix $1,000 fabricated price in SoftwareApplication schema on all product/solution pages</div>
+            <div class="pw-task"><span class="pt-dot"></span>Rewrite /llms.txt with proper content index: case studies, solution pages, blog index, key stats, notable clients</div>
+            <div class="pw-task"><span class="pt-dot"></span>Add source citations to the 3 homepage statistics (95% / 70% / $1M figures)</div>
+            <div class="pw-task"><span class="pt-dot"></span>Fix robots.txt syntax errors + add explicit GPTBot, ClaudeBot, PerplexityBot Allow directives</div>
+            <div class="pw-task"><span class="pt-dot"></span>Add datePublished + dateModified to all Article schema on case study pages</div>
+          </div>
+        </div>
+        <div class="plan-week">
+          <div class="pw-hd"><span class="pw-n">Week 2</span><span class="pw-theme">Content &amp; Credentials</span></div>
+          <div class="pw-tasks">
+            <div class="pw-task"><span class="pt-dot"></span>Create/restore About + Team page with founder narrative, leadership bios, and LinkedIn links</div>
+            <div class="pw-task"><span class="pt-dot"></span>Add full author credentials to all blog bylines (doctoral field, institution, LinkedIn profile)</div>
+            <div class="pw-task"><span class="pt-dot"></span>Add visible publication dates to all blog posts and case studies (template-level Wix change)</div>
+            <div class="pw-task"><span class="pt-dot"></span>Publish GenAI whitepaper content as a full ungated HTML article with Q&amp;A heading structure</div>
+            <div class="pw-task"><span class="pt-dot"></span>Register Bing Webmaster Tools + implement IndexNow integration</div>
+          </div>
+        </div>
+        <div class="plan-week">
+          <div class="pw-hd"><span class="pw-n">Week 3</span><span class="pw-theme">Schema &amp; Entity Building</span></div>
+          <div class="pw-tasks">
+            <div class="pw-task"><span class="pt-dot"></span>Replace LocalBusiness schema on homepage with comprehensive Organization + full sameAs block</div>
+            <div class="pw-task"><span class="pt-dot"></span>Expand sameAs to include YouTube, Crunchbase, Facebook, Instagram on all Organization schema</div>
+            <div class="pw-task"><span class="pt-dot"></span>Add BlogPosting/Article schema to all blog and whitepaper pages (currently zero structured data)</div>
+            <div class="pw-task"><span class="pt-dot"></span>Add BreadcrumbList schema to all interior pages via Wix Custom Code</div>
+            <div class="pw-task"><span class="pt-dot"></span>Add Person schema for named authors with LinkedIn sameAs links</div>
+          </div>
+        </div>
+        <div class="plan-week">
+          <div class="pw-hd"><span class="pw-n">Week 4</span><span class="pw-theme">Brand Authority</span></div>
+          <div class="pw-tasks">
+            <div class="pw-task"><span class="pt-dot"></span>Create Wikipedia article for viAct (TechCrunch, SCMP, WEF coverage meets notability threshold)</div>
+            <div class="pw-task"><span class="pt-dot"></span>Claim viAct listing on G2 and Capterra — request verified reviews from existing clients</div>
+            <div class="pw-task"><span class="pt-dot"></span>Negotiate client naming rights on at least 2-3 case studies (AECOM, MTR, or Bouygues)</div>
+            <div class="pw-task"><span class="pt-dot"></span>Build Reddit presence: original research posts in r/ConstructionManagement, r/WorkplaceSafety</div>
+            <div class="pw-task"><span class="pt-dot"></span>Add Regulatory Compliance sections (ISO 45001, OSHA, MOM, HSE) to key product pages</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<script>
+setInterval(()=>{document.getElementById('tb-dt').textContent=new Date().toLocaleDateString('en-GB',{day:'2-digit',month:'short',year:'numeric'})},1000);
+
+const AGENTS={
+  ga4:{g:'seo',ico:'📈',name:'GA4 Report Agent',lbl:'SEO Agents',desc:'Pulls weekly traffic data from GA4, compares to the previous period, and generates a full performance report with channel breakdowns, top landing pages, goal completions, and actionable insights for viact.ai.',tags:['Traffic Analysis','Channel Breakdown','Landing Pages','Week-on-Week','Goal Tracking'],col:'teal',status:'ready'},
+  gsc:{g:'seo',ico:'🔍',name:'Search Console Agent',lbl:'SEO Agents',desc:'Pulls impressions, clicks, CTR, and average position data from Google Search Console. Surfaces keyword opportunities, declining pages, and quick-win optimisations for viact.ai rankings.',tags:['Impressions & Clicks','CTR Analysis','Keyword Gaps','Position Tracking','Page Performance'],col:'teal',status:'soon'},
+  audit:{g:'seo',ico:'🛡️',name:'Audit Report Agent',lbl:'SEO Agents',desc:'Runs an 8-dimension GEO + SEO audit on viact.ai — AI citability, brand authority, E-E-A-T, technical GEO, schema, and platform optimization across ChatGPT, Perplexity, Gemini, and Bing Copilot.',tags:['AI Citability','Schema Audit','E-E-A-T','Technical GEO','Platform Scores'],col:'teal',status:'ready'},
+  broken:{g:'seo',ico:'🔗',name:'Broken Link Agent',lbl:'SEO Agents',desc:'Crawls viact.ai to detect broken internal and external links, missing redirects, 404 errors, and orphaned pages. Outputs a prioritised fix list with suggested redirect targets.',tags:['404 Detection','Redirect Audit','Internal Links','External Links','Orphaned Pages'],col:'teal',status:'soon'},
+  social:{g:'content',ico:'📱',name:'Social Media Content',lbl:'Content Writing',desc:'Generates platform-optimised posts for LinkedIn, Twitter/X, and Instagram from a single brief. Includes hashtag strategy, posting time recommendations, and full viAct brand voice compliance.',tags:['LinkedIn Posts','Twitter/X','Instagram','Hashtag Strategy','Brand Voice'],col:'orange',status:'soon'},
+  blog:{g:'content',ico:'📝',name:'Blog Content Agent',lbl:'Content Writing',desc:'Full SEO blog writing pipeline — keyword research, SERP analysis, 9-section content brief, outline approval, and a 2,000-word draft optimised for Google and AI citation by ChatGPT and Perplexity.',tags:['SEO Optimised','2,000 Words','AI Citation Blocks','Content Brief','SERP Analysis'],col:'orange',status:'soon'},
+  linkedin:{g:'content',ico:'💼',name:'LinkedIn Article Agent',lbl:'Content Writing',desc:'Writes long-form LinkedIn articles for viAct leadership. Covers EHS thought leadership, AI safety trends, and industry commentary with a distinctive executive voice and professional formatting.',tags:['Thought Leadership','Executive Voice','EHS Trends','1,500 Words','Professional Format'],col:'orange',status:'soon'},
+  pr:{g:'content',ico:'📣',name:'PR Content Agent',lbl:'Content Writing',desc:'Finds relevant journalists and editors, generates tailored press releases, pitch emails, and media briefs for viAct product launches, awards, customer stories, and industry milestones.',tags:['Press Releases','Media Pitches','Journalist Outreach','Award Announcements','Customer Stories'],col:'orange',status:'soon'},
+};
+
+function toggleNav(id){
+  const btn=document.getElementById('nav-'+id),kids=document.getElementById('kids-'+id);
+  const isOpen=kids.classList.contains('open');
+  ['seo','content'].forEach(k=>{document.getElementById('kids-'+k).classList.remove('open');document.getElementById('nav-'+k).classList.remove('open');});
+  if(!isOpen){kids.classList.add('open');btn.classList.add('open');}
+}
+
+function openGroup(id){
+  toggleNav(id);
+}
+
+function showAgent(id,el){
+  const a=AGENTS[id];if(!a)return;
+  document.querySelectorAll('.nav-kid').forEach(k=>k.classList.remove('active'));
+  if(el)el.classList.add('active');
+  document.getElementById('tb-path').textContent=a.name;
+  document.getElementById('view-home').style.display='none';
+  toggleNav(a.g);
+
+  // Audit agent gets its own dedicated report view
+  if(id==='audit'){
+    document.getElementById('view-agent').style.display='none';
+    document.getElementById('view-audit').style.display='block';
+    return;
+  }
+
+  document.getElementById('view-audit').style.display='none';
+  const isTeal=a.col==='teal';
+  const c=isTeal?'var(--teal)':'var(--og2)';
+  const cs=isTeal?'var(--td)':'var(--od)';
+  const cb=isTeal?'var(--tb)':'var(--ob)';
+  const cg=isTeal?'rgba(0,194,200,.08)':'rgba(232,116,10,.08)';
+  const tagsHtml=a.tags.map(t=>`<span class="ph-tag" style="background:${cs};color:${c};border:1px solid ${cb}">${t}</span>`).join('');
+  const actionHtml=a.status==='ready'
+    ?`<button class="launch-btn" style="background:${c};color:#000" onclick="alert('GA4 Agent launching — connect your Google Analytics account to begin.')">▶ Launch Agent</button>`
+    :`<div class="soon-pill">🛠&nbsp; In Development — Coming Soon</div>`;
+  document.getElementById('ph-inner').innerHTML=`
+    <div style="position:absolute;inset:0;background:radial-gradient(ellipse at 50% 20%,${cg} 0%,transparent 60%);pointer-events:none"></div>
+    <div class="ph-ring" style="background:${cs};border:2px solid ${cb}"><span>${a.ico}</span></div>
+    <div class="ph-lbl" style="color:${c}">${a.lbl}</div>
+    <h2>${a.name}</h2>
+    <p>${a.desc}</p>
+    <div class="ph-tags">${tagsHtml}</div>
+    ${actionHtml}
+  `;
+  const style=document.createElement('style');
+  style.textContent=`.ph-ring::after{border-color:${c}}`;
+  document.head.appendChild(style);
+  document.getElementById('view-agent').style.display='block';
+}
+
+function arTab(id,el){
+  document.querySelectorAll('.ar-tab').forEach(t=>t.classList.remove('active'));
+  document.querySelectorAll('.ar-panel').forEach(p=>p.style.display='none');
+  el.classList.add('active');
+  document.getElementById('arp-'+id).style.display='block';
+}
+
+function runAuditAgent(){
+  const btn=document.getElementById('run-audit-btn');
+  const progress=document.getElementById('ar-progress');
+  btn.disabled=true;
+  btn.classList.add('running');
+  btn.textContent='⏳ Running...';
+  progress.classList.add('active');
+
+  // Reset all steps
+  for(let i=0;i<=6;i++){
+    document.getElementById('ap-'+i).className='ap-step';
+    document.getElementById('apb-'+i).style.width='0%';
+  }
+
+  const steps=[
+    {delay:0,   dur:1800},
+    {delay:2000, dur:2500},
+    {delay:2200, dur:2500},
+    {delay:2400, dur:2500},
+    {delay:2600, dur:2500},
+    {delay:2800, dur:2500},
+    {delay:10000,dur:1200},
+  ];
+
+  steps.forEach((s,i)=>{
+    setTimeout(()=>{
+      document.getElementById('ap-'+i).classList.add('active');
+      document.getElementById('apb-'+i).style.width='100%';
+      document.getElementById('apb-'+i).style.transition=`width ${s.dur}ms ease`;
+    }, s.delay);
+    setTimeout(()=>{
+      document.getElementById('ap-'+i).classList.remove('active');
+      document.getElementById('ap-'+i).classList.add('done');
+    }, s.delay+s.dur);
+  });
+
+  // Done — update timestamp and button
+  setTimeout(()=>{
+    const now=new Date();
+    const fmt=now.toLocaleDateString('en-GB',{day:'2-digit',month:'short',year:'numeric'})
+      +', '+now.toLocaleTimeString('en-GB',{hour:'2-digit',minute:'2-digit'});
+    document.getElementById('ar-last-run').textContent='Last run: '+fmt;
+    btn.disabled=false;
+    btn.classList.remove('running');
+    btn.classList.add('done');
+    btn.textContent='✓ Done — Run Again';
+    setTimeout(()=>{
+      btn.classList.remove('done');
+      btn.textContent='▶ Run Agent';
+      progress.classList.remove('active');
+      for(let i=0;i<=6;i++){
+        document.getElementById('ap-'+i).className='ap-step';
+        document.getElementById('apb-'+i).style.width='0%';
+        document.getElementById('apb-'+i).style.transition='none';
+      }
+    },4000);
+  },12500);
+}
+
+// Logo click goes home
+document.querySelector('.sb-logo').style.cursor='pointer';
+document.querySelector('.sb-logo').onclick=()=>{
+  document.getElementById('view-home').style.display='block';
+  document.getElementById('view-agent').style.display='none';
+  document.getElementById('view-audit').style.display='none';
+  document.getElementById('tb-path').textContent='Marketing OS';
+  document.querySelectorAll('.nav-kid').forEach(k=>k.classList.remove('active'));
+};
+</script>
+</body>
+</html>
