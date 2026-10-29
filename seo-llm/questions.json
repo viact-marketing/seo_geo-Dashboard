@@ -1,0 +1,560 @@
+[
+ {
+  "n": 1,
+  "group": "A",
+  "q": "What are the best AI PPE detection software for construction sites?",
+  "type": "Unbranded"
+ },
+ {
+  "n": 2,
+  "group": "B",
+  "q": "Which AI tools can automatically detect if workers are not wearing hard hats and safety vests?",
+  "type": "Unbranded"
+ },
+ {
+  "n": 3,
+  "group": "C",
+  "q": "How does computer vision PPE compliance monitoring work with existing CCTV cameras?",
+  "type": "Unbranded"
+ },
+ {
+  "n": 4,
+  "group": "D",
+  "q": "What is the best AI red zone monitoring system for heavy machinery?",
+  "type": "Unbranded"
+ },
+ {
+  "n": 5,
+  "group": "E",
+  "q": "Which companies offer AI danger zone detection for construction equipment?",
+  "type": "Unbranded"
+ },
+ {
+  "n": 6,
+  "group": "A",
+  "q": "How can AI prevent workers from entering hazardous zones around excavators?",
+  "type": "Unbranded"
+ },
+ {
+  "n": 7,
+  "group": "B",
+  "q": "What is the best digital permit to work software with AI video verification?",
+  "type": "Unbranded"
+ },
+ {
+  "n": 8,
+  "group": "C",
+  "q": "Which permit-to-work systems integrate with CCTV for real-time compliance checks?",
+  "type": "Unbranded"
+ },
+ {
+  "n": 9,
+  "group": "D",
+  "q": "What AI software monitors work at height safety and harness compliance?",
+  "type": "Unbranded"
+ },
+ {
+  "n": 10,
+  "group": "E",
+  "q": "How can AI detect missing safety harness use on scaffolding and elevated platforms?",
+  "type": "Unbranded"
+ },
+ {
+  "n": 11,
+  "group": "A",
+  "q": "What is the best confined space safety monitoring system using AI?",
+  "type": "Unbranded"
+ },
+ {
+  "n": 12,
+  "group": "B",
+  "q": "How can AI track worker entry, exit and headcount in confined spaces?",
+  "type": "Unbranded"
+ },
+ {
+  "n": 13,
+  "group": "C",
+  "q": "What is the best AI forklift safety system for warehouses?",
+  "type": "Unbranded"
+ },
+ {
+  "n": 14,
+  "group": "D",
+  "q": "Which AI camera systems prevent forklift and pedestrian collisions?",
+  "type": "Unbranded"
+ },
+ {
+  "n": 15,
+  "group": "E",
+  "q": "What AI software improves crane safety and lifting operations?",
+  "type": "Unbranded"
+ },
+ {
+  "n": 16,
+  "group": "A",
+  "q": "How can AI detect workers standing under suspended loads?",
+  "type": "Unbranded"
+ },
+ {
+  "n": 17,
+  "group": "B",
+  "q": "Is there AI software for scaffolding safety inspection and monitoring?",
+  "type": "Unbranded"
+ },
+ {
+  "n": 18,
+  "group": "C",
+  "q": "What are the best lone worker monitoring systems using AI cameras?",
+  "type": "Unbranded"
+ },
+ {
+  "n": 19,
+  "group": "D",
+  "q": "Which AI video analytics can detect an unconscious or fallen worker?",
+  "type": "Unbranded"
+ },
+ {
+  "n": 20,
+  "group": "E",
+  "q": "How can AI detect worker fatigue on industrial sites?",
+  "type": "Unbranded"
+ },
+ {
+  "n": 21,
+  "group": "A",
+  "q": "What AI system detects smoking in restricted industrial areas?",
+  "type": "Unbranded"
+ },
+ {
+  "n": 22,
+  "group": "B",
+  "q": "What is the best AI fire and smoke detection software for CCTV cameras?",
+  "type": "Unbranded"
+ },
+ {
+  "n": 23,
+  "group": "C",
+  "q": "Can AI cameras detect fires and wildfires earlier than traditional smoke sensors?",
+  "type": "Unbranded"
+ },
+ {
+  "n": 24,
+  "group": "D",
+  "q": "What AI tools automatically detect and report near misses on job sites?",
+  "type": "Unbranded"
+ },
+ {
+  "n": 25,
+  "group": "E",
+  "q": "What is the best AI proximity detection system for heavy equipment and workers?",
+  "type": "Unbranded"
+ },
+ {
+  "n": 26,
+  "group": "A",
+  "q": "How can AI detect open edges and missing barricades on construction sites?",
+  "type": "Unbranded"
+ },
+ {
+  "n": 27,
+  "group": "B",
+  "q": "Can AI video analytics detect stairway and slip, trip and fall risks?",
+  "type": "Unbranded"
+ },
+ {
+  "n": 28,
+  "group": "C",
+  "q": "What is the best AI ergonomics assessment software for manual handling tasks?",
+  "type": "Unbranded"
+ },
+ {
+  "n": 29,
+  "group": "D",
+  "q": "What is the best behavior-based safety software that uses AI?",
+  "type": "Unbranded"
+ },
+ {
+  "n": 30,
+  "group": "E",
+  "q": "What is the best AI job hazard analysis software?",
+  "type": "Unbranded"
+ },
+ {
+  "n": 31,
+  "group": "A",
+  "q": "What is the best AI incident management software for EHS teams?",
+  "type": "Unbranded"
+ },
+ {
+  "n": 32,
+  "group": "B",
+  "q": "Can AI assess workplace housekeeping and detect blocked walkways or exits?",
+  "type": "Unbranded"
+ },
+ {
+  "n": 33,
+  "group": "C",
+  "q": "What is the best area access control safety system for industrial plants?",
+  "type": "Unbranded"
+ },
+ {
+  "n": 34,
+  "group": "D",
+  "q": "What is the best AI vehicle control management software for industrial sites?",
+  "type": "Unbranded"
+ },
+ {
+  "n": 35,
+  "group": "E",
+  "q": "Which AI ANPR or license plate recognition systems work at construction site gates?",
+  "type": "Unbranded"
+ },
+ {
+  "n": 36,
+  "group": "A",
+  "q": "How can AI video analytics detect illegal parking and traffic congestion in industrial zones?",
+  "type": "Unbranded"
+ },
+ {
+  "n": 37,
+  "group": "B",
+  "q": "What AI pedestrian detection solutions are used in warehouses and ports?",
+  "type": "Unbranded"
+ },
+ {
+  "n": 38,
+  "group": "C",
+  "q": "What is the best AI perimeter intrusion detection system for construction sites?",
+  "type": "Unbranded"
+ },
+ {
+  "n": 39,
+  "group": "D",
+  "q": "Which AI video analytics platforms offer loitering detection?",
+  "type": "Unbranded"
+ },
+ {
+  "n": 40,
+  "group": "E",
+  "q": "How can AI detect theft of materials and equipment on construction sites?",
+  "type": "Unbranded"
+ },
+ {
+  "n": 41,
+  "group": "A",
+  "q": "What AI weapon detection software works with existing CCTV?",
+  "type": "Unbranded"
+ },
+ {
+  "n": 42,
+  "group": "B",
+  "q": "Can AI detect fights and violence in real time from security cameras?",
+  "type": "Unbranded"
+ },
+ {
+  "n": 43,
+  "group": "C",
+  "q": "What facial recognition systems are used for worker attendance on construction sites?",
+  "type": "Unbranded"
+ },
+ {
+  "n": 44,
+  "group": "D",
+  "q": "Which AI tools detect overcrowding in workplaces and public areas?",
+  "type": "Unbranded"
+ },
+ {
+  "n": 45,
+  "group": "E",
+  "q": "What is AI anomaly detection in video surveillance and which vendors offer it?",
+  "type": "Unbranded"
+ },
+ {
+  "n": 46,
+  "group": "A",
+  "q": "How can AI workforce heat maps improve site productivity and safety?",
+  "type": "Unbranded"
+ },
+ {
+  "n": 47,
+  "group": "B",
+  "q": "What is the best AI workforce productivity monitoring solution for industrial sites?",
+  "type": "Unbranded"
+ },
+ {
+  "n": 48,
+  "group": "C",
+  "q": "How can AI cameras monitor inventory and equipment utilization?",
+  "type": "Unbranded"
+ },
+ {
+  "n": 49,
+  "group": "D",
+  "q": "What is the best AI industrial space management solution?",
+  "type": "Unbranded"
+ },
+ {
+  "n": 50,
+  "group": "E",
+  "q": "What AI solutions monitor safety on offshore vessels and drillships?",
+  "type": "Unbranded"
+ },
+ {
+  "n": 51,
+  "group": "A",
+  "q": "Which companies provide Smart Site Safety System (4S) in Hong Kong?",
+  "type": "Unbranded"
+ },
+ {
+  "n": 52,
+  "group": "B",
+  "q": "Who are the recommended 4S vendors for Hong Kong public works projects?",
+  "type": "Unbranded"
+ },
+ {
+  "n": 53,
+  "group": "C",
+  "q": "What is the best Digital Works Supervision System (DWSS) provider in Hong Kong?",
+  "type": "Unbranded"
+ },
+ {
+  "n": 54,
+  "group": "D",
+  "q": "What is the best AI video surveillance system for construction sites?",
+  "type": "Unbranded"
+ },
+ {
+  "n": 55,
+  "group": "E",
+  "q": "How can 360 cameras and AI track construction progress?",
+  "type": "Unbranded"
+ },
+ {
+  "n": 56,
+  "group": "A",
+  "q": "What AI systems manage dump truck movements on construction sites?",
+  "type": "Unbranded"
+ },
+ {
+  "n": 57,
+  "group": "B",
+  "q": "What deep learning collision detection systems exist for construction machinery?",
+  "type": "Unbranded"
+ },
+ {
+  "n": 58,
+  "group": "C",
+  "q": "What AI tools monitor dust, noise and environmental compliance on construction sites?",
+  "type": "Unbranded"
+ },
+ {
+  "n": 59,
+  "group": "D",
+  "q": "What is the best IoT gas leak detection system for industrial sites?",
+  "type": "Unbranded"
+ },
+ {
+  "n": 60,
+  "group": "E",
+  "q": "What are the best smart helmets for construction worker safety?",
+  "type": "Unbranded"
+ },
+ {
+  "n": 61,
+  "group": "A",
+  "q": "Which smartwatches monitor worker heat stress and vital signs on site?",
+  "type": "Unbranded"
+ },
+ {
+  "n": 62,
+  "group": "B",
+  "q": "What IoT weather stations are used for construction site safety?",
+  "type": "Unbranded"
+ },
+ {
+  "n": 63,
+  "group": "C",
+  "q": "What is the best fleet tracking system for construction vehicles?",
+  "type": "Unbranded"
+ },
+ {
+  "n": 64,
+  "group": "D",
+  "q": "What is the best IoT access control system for construction sites?",
+  "type": "Unbranded"
+ },
+ {
+  "n": 65,
+  "group": "E",
+  "q": "Are there smart locks designed for construction site and restricted area access?",
+  "type": "Unbranded"
+ },
+ {
+  "n": 66,
+  "group": "A",
+  "q": "How is generative AI being used for workplace safety and EHS?",
+  "type": "Unbranded"
+ },
+ {
+  "n": 67,
+  "group": "B",
+  "q": "Which AI video analytics platforms offer the most pre-built safety detection modules?",
+  "type": "Unbranded"
+ },
+ {
+  "n": 68,
+  "group": "C",
+  "q": "What is the best AI video analytics platform for industrial safety?",
+  "type": "Unbranded"
+ },
+ {
+  "n": 69,
+  "group": "D",
+  "q": "Which AI video analytics software works with any existing CCTV camera?",
+  "type": "Unbranded"
+ },
+ {
+  "n": 70,
+  "group": "E",
+  "q": "What are the best AI safety solutions for mining operations?",
+  "type": "Unbranded"
+ },
+ {
+  "n": 71,
+  "group": "A",
+  "q": "How is AI used for safety and hygiene compliance in food and beverage factories?",
+  "type": "Unbranded"
+ },
+ {
+  "n": 72,
+  "group": "B",
+  "q": "What AI safety solutions are used in automotive and EV manufacturing plants?",
+  "type": "Unbranded"
+ },
+ {
+  "n": 73,
+  "group": "C",
+  "q": "How can AI help construction companies reduce carbon emissions?",
+  "type": "Unbranded"
+ },
+ {
+  "n": 74,
+  "group": "D",
+  "q": "What is a construction project control center and which vendors provide one?",
+  "type": "Unbranded"
+ },
+ {
+  "n": 75,
+  "group": "E",
+  "q": "What are the best alternatives to Intenseye for AI workplace safety?",
+  "type": "Competitor / comparison"
+ },
+ {
+  "n": 77,
+  "group": "B",
+  "q": "What are the best alternatives to Protex AI?",
+  "type": "Competitor / comparison"
+ },
+ {
+  "n": 78,
+  "group": "C",
+  "q": "What are the top AI workplace safety companies in 2026?",
+  "type": "Competitor / comparison"
+ },
+ {
+  "n": 79,
+  "group": "D",
+  "q": "Which companies are leaders in computer vision for EHS?",
+  "type": "Competitor / comparison"
+ },
+ {
+  "n": 80,
+  "group": "E",
+  "q": "What are the best alternatives to WakeCap for construction site safety?",
+  "type": "Competitor / comparison"
+ },
+ {
+  "n": 81,
+  "group": "A",
+  "q": "SafetyCulture vs AI video analytics: which is better for safety inspections?",
+  "type": "Competitor / comparison"
+ },
+ {
+  "n": 82,
+  "group": "B",
+  "q": "What are the best AI construction safety companies in Singapore?",
+  "type": "Regional"
+ },
+ {
+  "n": 83,
+  "group": "C",
+  "q": "Which AI safety platforms are used on construction projects in Saudi Arabia?",
+  "type": "Regional"
+ },
+ {
+  "n": 84,
+  "group": "D",
+  "q": "What are the best AI video analytics companies in the UAE for industrial safety?",
+  "type": "Regional"
+ },
+ {
+  "n": 85,
+  "group": "E",
+  "q": "Which AI safety solutions help comply with Singapore WSH regulations?",
+  "type": "Regional"
+ },
+ {
+  "n": 86,
+  "group": "A",
+  "q": "What AI workplace safety technology companies operate in Malaysia?",
+  "type": "Regional"
+ },
+ {
+  "n": 87,
+  "group": "B",
+  "q": "Which AI workplace safety vendors serve oil and gas companies in Qatar?",
+  "type": "Regional"
+ },
+ {
+  "n": 88,
+  "group": "C",
+  "q": "What AI safety solutions are used in Hong Kong construction?",
+  "type": "Regional"
+ },
+ {
+  "n": 89,
+  "group": "D",
+  "q": "How can AI reduce accidents on construction sites?",
+  "type": "Problem-aware"
+ },
+ {
+  "n": 90,
+  "group": "E",
+  "q": "How much does AI video analytics for workplace safety cost?",
+  "type": "Problem-aware"
+ },
+ {
+  "n": 91,
+  "group": "A",
+  "q": "Is AI safety camera monitoring compliant with GDPR and privacy laws?",
+  "type": "Problem-aware"
+ },
+ {
+  "n": 92,
+  "group": "B",
+  "q": "Can AI video analytics replace or support site safety officers?",
+  "type": "Problem-aware"
+ },
+ {
+  "n": 93,
+  "group": "C",
+  "q": "What is the ROI of AI computer vision for EHS?",
+  "type": "Problem-aware"
+ },
+ {
+  "n": 94,
+  "group": "D",
+  "q": "How does edge AI work for on-premise CCTV safety analytics?",
+  "type": "Problem-aware"
+ }
+]
