@@ -1,0 +1,192 @@
+{
+ "date": "2026-10-29",
+ "fetchedAt": "2026-10-29T14:46:31+05:30",
+ "group": "E",
+ "engines": {
+  "gem": {
+   "enabled": true,
+   "ok": 0,
+   "failed": 18,
+   "model": null,
+   "error": "HTTP 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \""
+  },
+  "gpt": {
+   "enabled": false,
+   "ok": 0,
+   "failed": 0,
+   "model": null,
+   "error": null
+  },
+  "pplx": {
+   "enabled": false,
+   "ok": 0,
+   "failed": 0,
+   "model": null,
+   "error": null
+  }
+ },
+ "results": [
+  {
+   "n": 5,
+   "q": "Which companies offer AI danger zone detection for construction equipment?",
+   "group": "E",
+   "gem": {
+    "status": "ERROR",
+    "error": "HTTP 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \""
+   }
+  },
+  {
+   "n": 10,
+   "q": "How can AI detect missing safety harness use on scaffolding and elevated platforms?",
+   "group": "E",
+   "gem": {
+    "status": "ERROR",
+    "error": "HTTP 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \""
+   }
+  },
+  {
+   "n": 15,
+   "q": "What AI software improves crane safety and lifting operations?",
+   "group": "E",
+   "gem": {
+    "status": "ERROR",
+    "error": "HTTP 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \""
+   }
+  },
+  {
+   "n": 20,
+   "q": "How can AI detect worker fatigue on industrial sites?",
+   "group": "E",
+   "gem": {
+    "status": "ERROR",
+    "error": "HTTP 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \""
+   }
+  },
+  {
+   "n": 25,
+   "q": "What is the best AI proximity detection system for heavy equipment and workers?",
+   "group": "E",
+   "gem": {
+    "status": "ERROR",
+    "error": "HTTP 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \""
+   }
+  },
+  {
+   "n": 30,
+   "q": "What is the best AI job hazard analysis software?",
+   "group": "E",
+   "gem": {
+    "status": "ERROR",
+    "error": "HTTP 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \""
+   }
+  },
+  {
+   "n": 35,
+   "q": "Which AI ANPR or license plate recognition systems work at construction site gates?",
+   "group": "E",
+   "gem": {
+    "status": "ERROR",
+    "error": "HTTP 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \""
+   }
+  },
+  {
+   "n": 40,
+   "q": "How can AI detect theft of materials and equipment on construction sites?",
+   "group": "E",
+   "gem": {
+    "status": "ERROR",
+    "error": "HTTP 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \""
+   }
+  },
+  {
+   "n": 45,
+   "q": "What is AI anomaly detection in video surveillance and which vendors offer it?",
+   "group": "E",
+   "gem": {
+    "status": "ERROR",
+    "error": "HTTP 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \""
+   }
+  },
+  {
+   "n": 50,
+   "q": "What AI solutions monitor safety on offshore vessels and drillships?",
+   "group": "E",
+   "gem": {
+    "status": "ERROR",
+    "error": "HTTP 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \""
+   }
+  },
+  {
+   "n": 55,
+   "q": "How can 360 cameras and AI track construction progress?",
+   "group": "E",
+   "gem": {
+    "status": "ERROR",
+    "error": "HTTP 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \""
+   }
+  },
+  {
+   "n": 60,
+   "q": "What are the best smart helmets for construction worker safety?",
+   "group": "E",
+   "gem": {
+    "status": "ERROR",
+    "error": "HTTP 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \""
+   }
+  },
+  {
+   "n": 65,
+   "q": "Are there smart locks designed for construction site and restricted area access?",
+   "group": "E",
+   "gem": {
+    "status": "ERROR",
+    "error": "HTTP 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \""
+   }
+  },
+  {
+   "n": 70,
+   "q": "What are the best AI safety solutions for mining operations?",
+   "group": "E",
+   "gem": {
+    "status": "ERROR",
+    "error": "HTTP 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \""
+   }
+  },
+  {
+   "n": 75,
+   "q": "What are the best alternatives to Intenseye for AI workplace safety?",
+   "group": "E",
+   "gem": {
+    "status": "ERROR",
+    "error": "HTTP 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \""
+   }
+  },
+  {
+   "n": 80,
+   "q": "What are the best alternatives to WakeCap for construction site safety?",
+   "group": "E",
+   "gem": {
+    "status": "ERROR",
+    "error": "HTTP 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \""
+   }
+  },
+  {
+   "n": 85,
+   "q": "Which AI safety solutions help comply with Singapore WSH regulations?",
+   "group": "E",
+   "gem": {
+    "status": "ERROR",
+    "error": "HTTP 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \""
+   }
+  },
+  {
+   "n": 90,
+   "q": "How much does AI video analytics for workplace safety cost?",
+   "group": "E",
+   "gem": {
+    "status": "ERROR",
+    "error": "HTTP 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \""
+   }
+  }
+ ]
+}
