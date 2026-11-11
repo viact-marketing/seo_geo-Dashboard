@@ -1,89 +1,96 @@
 {
- "date": "2026-11-10",
- "fetchedAt": "2026-11-10T14:02:29+05:30",
+ "date": "2026-11-11",
+ "fetchedAt": "2026-11-11T13:23:43+05:30",
  "siteUrl": "https://www.viact.ai/",
- "window": "2026-10-11..2026-11-08",
- "queries": 683,
+ "window": "2026-10-12..2026-11-09",
+ "queries": 690,
  "avgPosition": 9.4,
  "top10": 307,
  "sitewide": {
   "d28": {
-   "window": "2026-10-12..2026-11-08",
-   "clicks": 2569,
-   "impressions": 300107,
+   "window": "2026-10-13..2026-11-09",
+   "clicks": 2592,
+   "impressions": 302851,
    "ctr": 0.86,
-   "position": 15.9
+   "position": 16.0
   },
   "d7": {
-   "window": "2026-11-02..2026-11-08",
-   "clicks": 736,
-   "impressions": 79392,
-   "ctr": 0.93,
-   "position": 15.5
+   "window": "2026-11-03..2026-11-09",
+   "clicks": 719,
+   "impressions": 80122,
+   "ctr": 0.9,
+   "position": 15.6
   },
   "d1": {
-   "window": "2026-11-08..2026-11-08",
-   "clicks": 47,
-   "impressions": 10051,
-   "ctr": 0.47,
-   "position": 17.3
+   "window": "2026-11-09..2026-11-09",
+   "clicks": 117,
+   "impressions": 12488,
+   "ctr": 0.94,
+   "position": 15.1
   }
  },
  "striking": [
   {
    "q": "vision ai",
-   "pos": 14.9,
-   "impr": 828,
+   "pos": 14.7,
+   "impr": 834,
    "clicks": 2,
    "page": "https://www.viact.ai/glossary/vision-ai"
   },
   {
    "q": "forklift safety system",
-   "pos": 12.4,
-   "impr": 507,
+   "pos": 12.3,
+   "impr": 509,
    "clicks": 1,
    "page": "https://www.viact.ai/solutions/forklift-safety-system"
   },
   {
    "q": "ai video analytics",
-   "pos": 18.6,
-   "impr": 467,
+   "pos": 18.2,
+   "impr": 481,
    "clicks": 4,
    "page": "https://www.viact.ai/video-analytics-solution"
   },
   {
-   "q": "process safety management software",
-   "pos": 15.4,
-   "impr": 191,
-   "clicks": 2,
-   "page": "https://www.viact.ai/glossary/process-safety-management"
-  },
-  {
    "q": "4s platform",
-   "pos": 16.9,
-   "impr": 182,
+   "pos": 16.4,
+   "impr": 205,
    "clicks": 0,
    "page": "https://www.viact.ai/smart-site-safety-system-hong-kong-4s-hk"
   },
   {
+   "q": "process safety management software",
+   "pos": 15.7,
+   "impr": 204,
+   "clicks": 2,
+   "page": "https://www.viact.ai/glossary/process-safety-management"
+  },
+  {
    "q": "ai construction safety",
-   "pos": 10.7,
-   "impr": 181,
+   "pos": 10.5,
+   "impr": 195,
    "clicks": 0,
    "page": "https://www.viact.ai/industry/construction-ai-safety-solution"
   },
   {
    "q": "ai powered video analytics",
-   "pos": 17.7,
-   "impr": 160,
+   "pos": 17.9,
+   "impr": 162,
    "clicks": 1,
    "page": "https://www.viact.ai/video-analytics-solution"
   },
   {
+   "q": "4s smart site safety system",
+   "pos": 18.8,
+   "impr": 130,
+   "clicks": 0,
+   "page": "https://www.viact.ai/smart-site-safety-system-hong-kong-4s-hk"
+  },
+  {
    "q": "theft detection",
-   "pos": 15.4,
-   "impr": 133,
-   "clicks": 2,
+   "pos": 14.4,
+   "impr": 127,
+   "clicks": 3,
    "page": "https://www.viact.ai/video-analytics-solution/theft-detection"
   },
   {
@@ -94,13 +101,6 @@
    "page": "https://www.viact.ai/iot/access-control-system"
   },
   {
-   "q": "4s smart site safety system",
-   "pos": 19.2,
-   "impr": 126,
-   "clicks": 0,
-   "page": "https://www.viact.ai/smart-site-safety-system-hong-kong-4s-hk"
-  },
-  {
    "q": "access control iot devices",
    "pos": 13.9,
    "impr": 124,
@@ -109,50 +109,50 @@
   },
   {
    "q": "dwss system",
-   "pos": 10.0,
+   "pos": 10.4,
    "impr": 120,
    "clicks": 2,
    "page": "https://www.viact.ai/construction/digital-works-supervision-system"
   },
   {
    "q": "ai dashboards for ehs compliance",
-   "pos": 17.9,
-   "impr": 113,
+   "pos": 18.2,
+   "impr": 109,
    "clicks": 0,
    "page": "https://www.viact.ai/post/eyes-on-ground-vs-eyes-in-data-building-impact-with-ai-driven-safety-mindsets"
   },
   {
+   "q": "ai agents for construction companies",
+   "pos": 17.6,
+   "impr": 106,
+   "clicks": 0,
+   "page": "https://www.viact.ai/post/ai-agents-for-construction-companies"
+  },
+  {
    "q": "ai construction monitoring",
-   "pos": 18.1,
-   "impr": 108,
+   "pos": 18.4,
+   "impr": 106,
    "clicks": 0,
    "page": "https://www.viact.ai/"
   },
   {
    "q": "ai agents for construction",
    "pos": 14.7,
-   "impr": 105,
-   "clicks": 0,
-   "page": "https://www.viact.ai/post/ai-agents-for-construction-companies"
-  },
-  {
-   "q": "ai agents for construction companies",
-   "pos": 17.8,
    "impr": 104,
    "clicks": 0,
    "page": "https://www.viact.ai/post/ai-agents-for-construction-companies"
   },
   {
    "q": "ai cctv camera",
-   "pos": 11.9,
-   "impr": 97,
+   "pos": 12.2,
+   "impr": 101,
    "clicks": 0,
    "page": "https://www.viact.ai/glossary/ai-cctv"
   },
   {
    "q": "ppe monitoring system",
    "pos": 14.5,
-   "impr": 91,
+   "impr": 95,
    "clicks": 1,
    "page": "https://www.viact.ai/ppedetection"
   },
@@ -164,95 +164,102 @@
    "page": "https://www.viact.ai/industry/manufacturing-ai-safety-solution"
   },
   {
+   "q": "ai ppe detection",
+   "pos": 16.9,
+   "impr": 81,
+   "clicks": 2,
+   "page": "https://www.viact.ai/ppedetection"
+  },
+  {
    "q": "aggression detection",
-   "pos": 11.9,
-   "impr": 77,
+   "pos": 12.2,
+   "impr": 80,
    "clicks": 0,
    "page": "https://www.viact.ai/video-analytics-solution/fight-violence-detection"
   },
   {
    "q": "manufacturing safety issues and solutions ai software",
-   "pos": 10.8,
-   "impr": 76,
+   "pos": 11.0,
+   "impr": 75,
    "clicks": 14,
    "page": "https://www.viact.ai/industry/manufacturing-ai-safety-solution"
   },
   {
-   "q": "ai ppe detection",
-   "pos": 18.1,
-   "impr": 75,
-   "clicks": 2,
-   "page": "https://www.viact.ai/ppedetection"
+   "q": "red zone management",
+   "pos": 14.0,
+   "impr": 73,
+   "clicks": 1,
+   "page": "https://www.viact.ai/red-zone-monitoring"
   },
   {
    "q": "proximity alert system",
    "pos": 14.4,
-   "impr": 73,
+   "impr": 72,
    "clicks": 1,
    "page": "https://www.viact.ai/glossary/proximity-warning-system"
   },
   {
    "q": "manufacturing safety ai software",
-   "pos": 16.1,
-   "impr": 66,
+   "pos": 15.6,
+   "impr": 70,
    "clicks": 9,
    "page": "https://www.viact.ai/industry/manufacturing-ai-safety-solution"
   },
   {
    "q": "ai cctv surveillance",
-   "pos": 11.9,
-   "impr": 66,
+   "pos": 11.7,
+   "impr": 69,
    "clicks": 0,
    "page": "https://www.viact.ai/glossary/ai-cctv"
   },
   {
    "q": "manufacturing safety ai",
-   "pos": 11.0,
-   "impr": 64,
+   "pos": 10.9,
+   "impr": 63,
    "clicks": 13,
    "page": "https://www.viact.ai/industry/manufacturing-ai-safety-solution"
   },
   {
    "q": "ai cctv analytics",
-   "pos": 11.0,
-   "impr": 62,
+   "pos": 10.8,
+   "impr": 60,
    "clicks": 1,
    "page": "https://www.viact.ai/video-analytics-solution"
   },
   {
    "q": "ai asset integrity",
-   "pos": 11.1,
-   "impr": 61,
+   "pos": 11.0,
+   "impr": 60,
    "clicks": 0,
    "page": "https://www.viact.ai/post/asset-integrity-management-aim-system"
   },
   {
    "q": "logistics safety and security ai",
    "pos": 10.9,
-   "impr": 57,
+   "impr": 59,
    "clicks": 9,
    "page": "https://www.viact.ai/post/6-gaps-ai-visual-intelligence-in-logistics-and-supply-chain-fixes"
   },
   {
-   "q": "computer vision inventory management",
-   "pos": 15.4,
-   "impr": 55,
-   "clicks": 1,
-   "page": "https://www.viact.ai/post/computer-vision-inventory-management"
-  },
-  {
    "q": "ai based video analytics modules",
-   "pos": 11.6,
-   "impr": 53,
+   "pos": 10.8,
+   "impr": 54,
    "clicks": 0,
    "page": "https://www.viact.ai/video-analytics-solution"
   },
   {
    "q": "logistics safety issues and solutions ai",
-   "pos": 13.8,
-   "impr": 49,
+   "pos": 13.4,
+   "impr": 52,
    "clicks": 11,
    "page": "https://www.viact.ai/post/6-gaps-ai-visual-intelligence-in-logistics-and-supply-chain-fixes"
+  },
+  {
+   "q": "computer vision inventory management",
+   "pos": 13.9,
+   "impr": 52,
+   "clicks": 1,
+   "page": "https://www.viact.ai/post/computer-vision-inventory-management"
   },
   {
    "q": "ai construction site monitoring",
@@ -262,6 +269,13 @@
    "page": "https://www.viact.ai/"
   },
   {
+   "q": "ai cameras in construction",
+   "pos": 14.0,
+   "impr": 45,
+   "clicks": 0,
+   "page": "https://www.viact.ai/industry/construction-ai-safety-solution"
+  },
+  {
    "q": "ai cameras in construction safety",
    "pos": 13.0,
    "impr": 45,
@@ -269,37 +283,37 @@
    "page": "https://www.viact.ai/industry/construction-ai-safety-solution"
   },
   {
-   "q": "ai cameras in construction",
-   "pos": 13.9,
-   "impr": 44,
+   "q": "ai construction safety platform",
+   "pos": 13.2,
+   "impr": 43,
    "clicks": 0,
    "page": "https://www.viact.ai/industry/construction-ai-safety-solution"
   },
   {
    "q": "logistics safety ai",
    "pos": 10.4,
-   "impr": 40,
+   "impr": 42,
    "clicks": 8,
    "page": "https://www.viact.ai/post/6-gaps-ai-visual-intelligence-in-logistics-and-supply-chain-fixes"
   },
   {
+   "q": "video ai analytics",
+   "pos": 13.2,
+   "impr": 39,
+   "clicks": 1,
+   "page": "https://www.viact.ai/video-analytics-solution"
+  },
+  {
    "q": "ai analytics video surveillance systems",
-   "pos": 14.6,
-   "impr": 40,
+   "pos": 14.9,
+   "impr": 39,
    "clicks": 0,
    "page": "https://www.viact.ai/video-analytics-solution"
   },
   {
    "q": "ai cameras construction",
-   "pos": 14.3,
-   "impr": 40,
-   "clicks": 0,
-   "page": "https://www.viact.ai/industry/construction-ai-safety-solution"
-  },
-  {
-   "q": "ai construction safety platform",
-   "pos": 12.9,
-   "impr": 40,
+   "pos": 13.9,
+   "impr": 39,
    "clicks": 0,
    "page": "https://www.viact.ai/industry/construction-ai-safety-solution"
   },
@@ -311,25 +325,46 @@
    "page": "https://www.viact.ai/video-analytics-solution"
   },
   {
-   "q": "smart site safety system",
-   "pos": 12.1,
+   "q": "logistics safety technology ai software",
+   "pos": 15.4,
    "impr": 38,
-   "clicks": 4,
+   "clicks": 13,
+   "page": "https://www.viact.ai/post/5-best-safety-ai-software-solution-in-2026"
+  },
+  {
+   "q": "smart site safety system",
+   "pos": 12.9,
+   "impr": 37,
+   "clicks": 3,
    "page": "https://www.viact.ai/smart-site-safety-system-hong-kong-4s-hk"
   },
   {
+   "q": "ai cctv software",
+   "pos": 16.4,
+   "impr": 37,
+   "clicks": 0,
+   "page": "https://www.viact.ai/video-analytics-solution"
+  },
+  {
    "q": "ai cameras for construction safety",
-   "pos": 17.5,
-   "impr": 38,
+   "pos": 17.4,
+   "impr": 36,
    "clicks": 0,
    "page": "https://www.viact.ai/"
   },
   {
-   "q": "logistics safety technology ai software",
-   "pos": 15.4,
-   "impr": 37,
-   "clicks": 13,
-   "page": "https://www.viact.ai/post/5-best-safety-ai-software-solution-in-2026"
+   "q": "solutions for logistics safety ai software",
+   "pos": 10.6,
+   "impr": 35,
+   "clicks": 8,
+   "page": "https://www.viact.ai/industry/logistics-supply-chain-ai-safety-solution"
+  },
+  {
+   "q": "4s",
+   "pos": 10.3,
+   "impr": 35,
+   "clicks": 1,
+   "page": "https://www.viact.ai/smart-site-safety-system-hong-kong-4s-hk"
   },
   {
    "q": "solutions for hospital safety ai software",
@@ -339,93 +374,58 @@
    "page": "https://www.viact.ai/post/5-best-safety-ai-software-solution-in-2026"
   },
   {
-   "q": "4s",
-   "pos": 10.2,
-   "impr": 34,
-   "clicks": 2,
-   "page": "https://www.viact.ai/smart-site-safety-system-hong-kong-4s-hk"
-  },
-  {
-   "q": "ai cctv software",
-   "pos": 16.9,
-   "impr": 34,
-   "clicks": 0,
-   "page": "https://www.viact.ai/video-analytics-solution"
-  },
-  {
-   "q": "video ai analytics",
-   "pos": 13.5,
-   "impr": 33,
-   "clicks": 1,
-   "page": "https://www.viact.ai/video-analytics-solution"
-  },
-  {
    "q": "ai based ip video analytics",
-   "pos": 15.8,
-   "impr": 33,
+   "pos": 15.4,
+   "impr": 34,
    "clicks": 0,
    "page": "https://www.viact.ai/video-analytics-solution"
-  },
-  {
-   "q": "ai construction cameras",
-   "pos": 16.0,
-   "impr": 33,
-   "clicks": 0,
-   "page": "https://www.viact.ai/industry/construction-ai-safety-solution"
-  },
-  {
-   "q": "solutions for logistics safety ai software",
-   "pos": 11.0,
-   "impr": 32,
-   "clicks": 8,
-   "page": "https://www.viact.ai/industry/logistics-supply-chain-ai-safety-solution"
   }
  ],
  "keywords": [
   {
    "q": "line fire",
    "pos": 8.4,
-   "impr": 13238
+   "impr": 13233
   },
   {
    "q": "viact",
    "pos": 1.4,
-   "impr": 3684
+   "impr": 4219
   },
   {
    "q": "lti full form",
    "pos": 2.2,
-   "impr": 3410
+   "impr": 3388
   },
   {
    "q": "lti meaning",
    "pos": 3.6,
-   "impr": 2708
+   "impr": 2763
   },
   {
    "q": "lti",
-   "pos": 8.3,
-   "impr": 2011
+   "pos": 8.2,
+   "impr": 2050
   },
   {
    "q": "dwss",
    "pos": 6.6,
-   "impr": 2006
+   "impr": 2039
   },
   {
    "q": "ai cctv",
    "pos": 7.7,
-   "impr": 1323
+   "impr": 1324
+  },
+  {
+   "q": "safety management system",
+   "pos": 25.1,
+   "impr": 1228
   },
   {
    "q": "loto",
    "pos": 8.8,
-   "impr": 1172
-  },
-  {
-   "q": "safety management system",
-   "pos": 26.2,
-   "impr": 1147
+   "impr": 1166
   },
   {
    "q": "line of fire meaning",
@@ -434,108 +434,118 @@
   },
   {
    "q": "sto meaning",
-   "pos": 2.9,
-   "impr": 875
+   "pos": 2.8,
+   "impr": 898
   },
   {
    "q": "vision ai",
-   "pos": 14.9,
-   "impr": 828
+   "pos": 14.7,
+   "impr": 834
   },
   {
    "q": "vihub",
    "pos": 2.6,
-   "impr": 810
+   "impr": 813
   },
   {
    "q": "line of fire",
    "pos": 5.9,
-   "impr": 620
+   "impr": 623
   },
   {
    "q": "lti meaning in safety",
-   "pos": 2.9,
-   "impr": 582
+   "pos": 2.8,
+   "impr": 593
   },
   {
    "q": "lost time injury",
-   "pos": 8.0,
-   "impr": 562
+   "pos": 7.9,
+   "impr": 554
   },
   {
    "q": "lti full form in safety",
    "pos": 1.9,
-   "impr": 532
+   "impr": 530
   },
   {
    "q": "forklift collision avoidance",
-   "pos": 21.3,
-   "impr": 515
+   "pos": 20.8,
+   "impr": 525
   },
   {
    "q": "forklift safety system",
-   "pos": 12.4,
-   "impr": 507
+   "pos": 12.3,
+   "impr": 509
   },
   {
    "q": "ai video analytics",
-   "pos": 18.6,
+   "pos": 18.2,
+   "impr": 481
+  },
+  {
+   "q": "vimac",
+   "pos": 5.1,
    "impr": 467
   },
   {
    "q": "what is line of fire",
    "pos": 4.3,
-   "impr": 455
-  },
-  {
-   "q": "vimac",
-   "pos": 5.1,
-   "impr": 455
+   "impr": 461
   },
   {
    "q": "ppe detection",
-   "pos": 7.1,
-   "impr": 452
+   "pos": 7.2,
+   "impr": 460
   },
   {
-   "q": "mom demerit points",
-   "pos": 4.8,
-   "impr": 419
+   "q": "lone worker safety monitoring",
+   "pos": 26.3,
+   "impr": 411
   },
   {
    "q": "viact login",
    "pos": 4.4,
-   "impr": 376
+   "impr": 386
+  },
+  {
+   "q": "what is lti in safety",
+   "pos": 5.4,
+   "impr": 353
   },
   {
    "q": "4s labelling scheme",
    "pos": 6.1,
-   "impr": 347
-  },
-  {
-   "q": "what is lti in safety",
-   "pos": 5.7,
-   "impr": 346
+   "impr": 351
   },
   {
    "q": "swp meaning",
    "pos": 6.3,
-   "impr": 334
+   "impr": 325
   },
   {
    "q": "what is line of fire in safety",
-   "pos": 7.5,
-   "impr": 323
+   "pos": 7.4,
+   "impr": 319
+  },
+  {
+   "q": "cctv ai",
+   "pos": 5.3,
+   "impr": 305
   },
   {
    "q": "(\"computer vision safety\" or \"ai workplace safety\" or \"video analytics safety\" or \"cctv safety ai\" or \"camera-based hazard detection\") (\"on-premises\" or \"on-premise\" or \"eu data residency\" or gdpr or \"data sovereignty\") (industrial or manufacturing or warehouse or logistics) -site:linkedin.com -site:twitter.com",
    "pos": 5.2,
-   "impr": 307
+   "impr": 293
   },
   {
-   "q": "cctv ai",
-   "pos": 5.4,
-   "impr": 303
+   "q": "forklift pedestrian detection system",
+   "pos": 54.6,
+   "impr": 290
+  },
+  {
+   "q": "what is lti",
+   "pos": 1.8,
+   "impr": 279
   },
   {
    "q": "vibot",
@@ -545,137 +555,137 @@
   {
    "q": "line of fire safety in hindi",
    "pos": 2.4,
-   "impr": 271
+   "impr": 265
   },
   {
-   "q": "forklift pedestrian detection system",
-   "pos": 54.2,
-   "impr": 270
-  },
-  {
-   "q": "what is lti",
-   "pos": 1.9,
-   "impr": 262
+   "q": "ai based video analytics",
+   "pos": 28.3,
+   "impr": 255
   },
   {
    "q": "viact.ai",
    "pos": 1.0,
-   "impr": 239
+   "impr": 250
   },
   {
-   "q": "ai based video analytics",
-   "pos": 29.5,
-   "impr": 236
+   "q": "what does lti stand for",
+   "pos": 5.7,
+   "impr": 232
   },
   {
    "q": "vilid",
    "pos": 1.4,
-   "impr": 233
-  },
-  {
-   "q": "what does lti stand for",
-   "pos": 5.9,
-   "impr": 223
+   "impr": 227
   },
   {
    "q": "low altitude economy",
-   "pos": 9.6,
-   "impr": 218
+   "pos": 9.4,
+   "impr": 224
   },
   {
    "q": "ai blind spot detection for warehouses",
    "pos": 2.3,
-   "impr": 208
-  },
-  {
-   "q": "process safety management software",
-   "pos": 15.4,
-   "impr": 191
-  },
-  {
-   "q": "vigent",
-   "pos": 7.4,
-   "impr": 187
+   "impr": 222
   },
   {
    "q": "4s platform",
-   "pos": 16.9,
-   "impr": 182
+   "pos": 16.4,
+   "impr": 205
+  },
+  {
+   "q": "process safety management software",
+   "pos": 15.7,
+   "impr": 204
   },
   {
    "q": "ai construction safety",
-   "pos": 10.7,
-   "impr": 181
+   "pos": 10.5,
+   "impr": 195
+  },
+  {
+   "q": "vigent",
+   "pos": 7.5,
+   "impr": 185
   },
   {
    "q": "ai construction solution hong kong",
-   "pos": 32.7,
-   "impr": 181
+   "pos": 32.6,
+   "impr": 183
   },
   {
    "q": "lti means",
    "pos": 2.0,
-   "impr": 178
+   "impr": 179
   },
   {
    "q": "cctv analytics software",
-   "pos": 5.6,
-   "impr": 171
+   "pos": 6.0,
+   "impr": 172
   },
   {
    "q": "line of fire definition",
-   "pos": 4.3,
+   "pos": 4.4,
    "impr": 169
   },
   {
    "q": "ai powered video analytics",
-   "pos": 17.7,
-   "impr": 160
+   "pos": 17.9,
+   "impr": 162
   },
   {
    "q": "video analytics ai",
-   "pos": 26.1,
-   "impr": 148
+   "pos": 25.4,
+   "impr": 155
   },
   {
-   "q": "smart safety helmet",
-   "pos": 2.3,
-   "impr": 146
+   "q": "digital works supervision system",
+   "pos": 9.8,
+   "impr": 155
   },
   {
    "q": "cctv video analytics software",
-   "pos": 7.9,
-   "impr": 145
+   "pos": 7.7,
+   "impr": 151
   },
   {
-   "q": "ai ehs software",
-   "pos": 38.7,
-   "impr": 144
+   "q": "smart safety helmet",
+   "pos": 2.4,
+   "impr": 146
   },
   {
    "q": "proactive safety",
-   "pos": 8.4,
-   "impr": 143
+   "pos": 8.5,
+   "impr": 142
   },
   {
    "q": "viaer",
-   "pos": 3.3,
-   "impr": 141
-  },
-  {
-   "q": "theft detection",
-   "pos": 15.4,
-   "impr": 133
-  },
-  {
-   "q": "swp full form in safety",
-   "pos": 4.2,
-   "impr": 132
+   "pos": 3.1,
+   "impr": 139
   },
   {
    "q": "lagging indicators in safety",
    "pos": 6.5,
+   "impr": 130
+  },
+  {
+   "q": "4s smart site safety system",
+   "pos": 18.8,
+   "impr": 130
+  },
+  {
+   "q": "swp full form in safety",
+   "pos": 4.2,
    "impr": 128
+  },
+  {
+   "q": "ai agent for construction progress monitoring",
+   "pos": 35.6,
+   "impr": 128
+  },
+  {
+   "q": "theft detection",
+   "pos": 14.4,
+   "impr": 127
   },
   {
    "q": "access control iot",
@@ -683,14 +693,14 @@
    "impr": 127
   },
   {
-   "q": "4s smart site safety system",
-   "pos": 19.2,
-   "impr": 126
+   "q": "ppe detection software",
+   "pos": 7.1,
+   "impr": 125
   },
   {
-   "q": "ppe detection software",
-   "pos": 7.2,
-   "impr": 125
+   "q": "viact ai",
+   "pos": 1.0,
+   "impr": 124
   },
   {
    "q": "access control iot devices",
@@ -698,99 +708,84 @@
    "impr": 124
   },
   {
-   "q": "ai agent for construction progress monitoring",
-   "pos": 35.2,
-   "impr": 124
-  },
-  {
-   "q": "viact ai",
-   "pos": 1.0,
-   "impr": 120
+   "q": "video analytics solution",
+   "pos": 23.9,
+   "impr": 122
   },
   {
    "q": "dwss system",
-   "pos": 10.0,
+   "pos": 10.4,
    "impr": 120
   },
   {
    "q": "l.t.i full form",
    "pos": 2.4,
-   "impr": 119
-  },
-  {
-   "q": "video analytics solution",
-   "pos": 22.1,
-   "impr": 116
-  },
-  {
-   "q": "proximity warning system",
-   "pos": 20.1,
-   "impr": 113
+   "impr": 117
   },
   {
    "q": "accident management software",
-   "pos": 37.8,
-   "impr": 113
+   "pos": 37.6,
+   "impr": 117
+  },
+  {
+   "q": "proximity warning system",
+   "pos": 20.3,
+   "impr": 109
   },
   {
    "q": "ai dashboards for ehs compliance",
-   "pos": 17.9,
-   "impr": 113
-  },
-  {
-   "q": "ai construction monitoring",
-   "pos": 18.1,
-   "impr": 108
-  },
-  {
-   "q": "ai agents for construction",
-   "pos": 14.7,
-   "impr": 105
+   "pos": 18.2,
+   "impr": 109
   },
   {
    "q": "\u062e\u0637 \u0627\u0644\u0646\u0627\u0631",
    "pos": 7.9,
-   "impr": 104
+   "impr": 108
   },
   {
    "q": "ai agents for construction companies",
-   "pos": 17.8,
-   "impr": 104
+   "pos": 17.6,
+   "impr": 106
   },
   {
    "q": "ai based gas analyzer market",
-   "pos": 54.1,
-   "impr": 103
+   "pos": 54.7,
+   "impr": 106
+  },
+  {
+   "q": "ai construction monitoring",
+   "pos": 18.4,
+   "impr": 106
+  },
+  {
+   "q": "ai agents for construction",
+   "pos": 14.7,
+   "impr": 104
+  },
+  {
+   "q": "ai cctv camera",
+   "pos": 12.2,
+   "impr": 101
   },
   {
    "q": "logistics safety issues and solutions ai software",
    "pos": 9.4,
-   "impr": 97
-  },
-  {
-   "q": "ai cctv camera",
-   "pos": 11.9,
-   "impr": 97
-  },
-  {
-   "q": "ai cctv monitoring",
-   "pos": 7.1,
-   "impr": 97
-  },
-  {
-   "q": "apa itu line of fire",
-   "pos": 8.2,
-   "impr": 94
-  },
-  {
-   "q": "ai cameras for construction",
-   "pos": 29.2,
-   "impr": 94
+   "impr": 98
   },
   {
    "q": "ppe monitoring system",
    "pos": 14.5,
-   "impr": 91
+   "impr": 95
+  },
+  {
+   "q": "ai cctv monitoring",
+   "pos": 7.0,
+   "impr": 93
+  },
+  {
+   "q": "apa itu line of fire",
+   "pos": 8.2,
+   "impr": 92
   },
   {
    "q": "video analytics software for cctv",
@@ -800,7 +795,7 @@
   {
    "q": "4s system",
    "pos": 7.0,
-   "impr": 90
+   "impr": 91
   },
   {
    "q": "manufacturing safety and security ai software",
@@ -808,68 +803,68 @@
    "impr": 89
   },
   {
+   "q": "ai for contractors",
+   "pos": 48.3,
+   "impr": 89
+  },
+  {
    "q": "lti full form safety",
    "pos": 1.9,
-   "impr": 87
+   "impr": 88
   },
   {
-   "q": "ai for contractors",
-   "pos": 48.2,
-   "impr": 84
-  },
-  {
-   "q": "red zone monitoring",
-   "pos": 5.9,
-   "impr": 83
-  },
-  {
-   "q": "what does sif mean",
-   "pos": 6.8,
-   "impr": 83
-  },
-  {
-   "q": "swp meaning in construction",
-   "pos": 2.7,
-   "impr": 81
+   "q": "ai cameras for construction",
+   "pos": 28.5,
+   "impr": 85
   },
   {
    "q": "sif safety meaning",
-   "pos": 6.9,
-   "impr": 78
+   "pos": 6.8,
+   "impr": 82
   },
   {
-   "q": "aggression detection",
-   "pos": 11.9,
-   "impr": 77
-  },
-  {
-   "q": "manufacturing safety issues and solutions ai software",
-   "pos": 10.8,
-   "impr": 76
-  },
-  {
-   "q": "ai agents in construction industry",
-   "pos": 22.6,
-   "impr": 76
+   "q": "what does sif mean",
+   "pos": 6.7,
+   "impr": 82
   },
   {
    "q": "ai ppe detection",
-   "pos": 18.1,
-   "impr": 75
+   "pos": 16.9,
+   "impr": 81
+  },
+  {
+   "q": "swp meaning in construction",
+   "pos": 2.6,
+   "impr": 80
+  },
+  {
+   "q": "aggression detection",
+   "pos": 12.2,
+   "impr": 80
   },
   {
    "q": "activity hazard analysis software",
    "pos": 31.9,
+   "impr": 79
+  },
+  {
+   "q": "red zone monitoring",
+   "pos": 5.5,
+   "impr": 77
+  },
+  {
+   "q": "manufacturing safety issues and solutions ai software",
+   "pos": 11.0,
    "impr": 75
   },
   {
-   "q": "manufacturing safety ai weapon software",
-   "pos": 3.3,
+   "q": "ai for construction companies",
+   "pos": 45.1,
    "impr": 74
   },
   {
-   "q": "proximity alert system",
-   "pos": 14.4,
+   "q": "red zone management",
+   "pos": 14.0,
    "impr": 73
   },
   {
@@ -878,49 +873,64 @@
    "impr": 72
   },
   {
+   "q": "manufacturing safety ai weapon software",
+   "pos": 3.2,
+   "impr": 72
+  },
+  {
    "q": "what is the line of fire",
-   "pos": 3.6,
-   "impr": 71
+   "pos": 3.7,
+   "impr": 72
   },
   {
-   "q": "mom sto",
-   "pos": 7.8,
-   "impr": 71
+   "q": "proximity alert system",
+   "pos": 14.4,
+   "impr": 72
   },
   {
-   "q": "solutions for logistics safety ai weapon",
-   "pos": 8.4,
-   "impr": 69
+   "q": "ai agents in construction industry",
+   "pos": 22.5,
+   "impr": 72
   },
   {
-   "q": "manufacturing safety technology ai",
-   "pos": 9.8,
-   "impr": 69
-  },
-  {
-   "q": "ai for construction companies",
-   "pos": 45.3,
-   "impr": 68
-  },
-  {
-   "q": "meaning of lti",
-   "pos": 3.3,
-   "impr": 68
-  },
-  {
-   "q": "advanced video analytics",
-   "pos": 31.5,
-   "impr": 68
-  },
-  {
-   "q": "ai construction solution singapore",
-   "pos": 30.7,
-   "impr": 68
+   "q": "manufacturing safety ai software",
+   "pos": 15.6,
+   "impr": 70
   },
   {
    "q": "computer vision manufacturing",
    "pos": 29.4,
-   "impr": 67
+   "impr": 70
+  },
+  {
+   "q": "ai construction solution singapore",
+   "pos": 30.4,
+   "impr": 70
+  },
+  {
+   "q": "solutions for logistics safety ai weapon",
+   "pos": 8.3,
+   "impr": 69
+  },
+  {
+   "q": "meaning of lti",
+   "pos": 3.2,
+   "impr": 69
+  },
+  {
+   "q": "ai cctv surveillance",
+   "pos": 11.7,
+   "impr": 69
+  },
+  {
+   "q": "manufacturing safety technology ai",
+   "pos": 9.9,
+   "impr": 68
+  },
+  {
+   "q": "line on fire",
+   "pos": 8.3,
+   "impr": 68
   },
   {
    "q": "lti full form in medical",
@@ -928,74 +938,69 @@
    "impr": 67
   },
   {
-   "q": "manufacturing safety ai software",
-   "pos": 16.1,
-   "impr": 66
-  },
-  {
-   "q": "line on fire",
-   "pos": 8.3,
-   "impr": 66
-  },
-  {
-   "q": "ai cctv surveillance",
-   "pos": 11.9,
-   "impr": 66
-  },
-  {
-   "q": "manufacturing safety ai",
-   "pos": 11.0,
-   "impr": 64
-  },
-  {
-   "q": "dwss hong kong",
-   "pos": 9.4,
-   "impr": 64
-  },
-  {
-   "q": "ai dash cams construction site management benefits",
-   "pos": 65.9,
-   "impr": 63
-  },
-  {
-   "q": "ai cctv analytics",
-   "pos": 11.0,
-   "impr": 62
-  },
-  {
    "q": "ai cctv system",
-   "pos": 9.4,
-   "impr": 62
+   "pos": 9.3,
+   "impr": 66
   },
   {
    "q": "jha software",
-   "pos": 24.0,
-   "impr": 62
+   "pos": 23.0,
+   "impr": 66
   },
   {
-   "q": "ai asset integrity",
-   "pos": 11.1,
+   "q": "dwss hong kong",
+   "pos": 9.2,
+   "impr": 65
+  },
+  {
+   "q": "advanced video analytics",
+   "pos": 30.2,
+   "impr": 65
+  },
+  {
+   "q": "ai dash cams construction site management benefits",
+   "pos": 66.1,
+   "impr": 64
+  },
+  {
+   "q": "manufacturing safety ai",
+   "pos": 10.9,
+   "impr": 63
+  },
+  {
+   "q": "viact singapore",
+   "pos": 2.1,
    "impr": 61
   },
   {
    "q": "ate\u015f hatt\u0131 ne demek",
    "pos": 4.2,
+   "impr": 61
+  },
+  {
+   "q": "ai cctv analytics",
+   "pos": 10.8,
+   "impr": 60
+  },
+  {
+   "q": "mom sto",
+   "pos": 7.9,
+   "impr": 60
+  },
+  {
+   "q": "ai asset integrity",
+   "pos": 11.0,
+   "impr": 60
+  },
+  {
+   "q": "ai camera solutions",
+   "pos": 32.8,
    "impr": 60
   },
   {
    "q": "logistics safety and security ai",
    "pos": 10.9,
-   "impr": 57
-  },
-  {
-   "q": "viact singapore",
-   "pos": 2.1,
-   "impr": 57
-  },
-  {
-   "q": "lti in safety full form",
-   "pos": 2.5,
-   "impr": 57
+   "impr": 59
   },
   {
    "q": "swp \u0e04\u0e37\u0e2d",
@@ -1004,72 +1009,87 @@
   },
   {
    "q": "what is lost time injury",
-   "pos": 6.8,
+   "pos": 6.6,
    "impr": 57
+  },
+  {
+   "q": "linea de fuego en seguridad industrial",
+   "pos": 3.4,
+   "impr": 55
+  },
+  {
+   "q": "lti in safety full form",
+   "pos": 2.3,
+   "impr": 55
   },
   {
    "q": "ai cctv perimeter",
    "pos": 4.4,
-   "impr": 56
-  },
-  {
-   "q": "computer vision inventory management",
-   "pos": 15.4,
-   "impr": 55
-  },
-  {
-   "q": "ai camera solutions",
-   "pos": 34.6,
-   "impr": 55
-  },
-  {
-   "q": "ai based video analytics modules",
-   "pos": 11.6,
-   "impr": 53
-  },
-  {
-   "q": "eptw software",
-   "pos": 2.6,
-   "impr": 51
-  },
-  {
-   "q": "ai assistant for incident management",
-   "pos": 60.0,
-   "impr": 51
-  },
-  {
-   "q": "idd singapore",
-   "pos": 4.6,
-   "impr": 50
-  },
-  {
-   "q": "ivms vehicle monitoring system",
-   "pos": 4.7,
-   "impr": 50
-  },
-  {
-   "q": "4s system solution",
-   "pos": 22.9,
-   "impr": 50
-  },
-  {
-   "q": "logistics safety issues and solutions ai",
-   "pos": 13.8,
-   "impr": 49
-  },
-  {
-   "q": "linea de fuego en seguridad industrial",
-   "pos": 3.5,
-   "impr": 49
+   "impr": 54
   },
   {
    "q": "cam a",
    "pos": 7.1,
-   "impr": 49
+   "impr": 54
+  },
+  {
+   "q": "ai based video analytics modules",
+   "pos": 10.8,
+   "impr": 54
+  },
+  {
+   "q": "idd singapore",
+   "pos": 4.6,
+   "impr": 53
+  },
+  {
+   "q": "ivms vehicle monitoring system",
+   "pos": 4.7,
+   "impr": 53
+  },
+  {
+   "q": "4s system solution",
+   "pos": 23.6,
+   "impr": 53
+  },
+  {
+   "q": "ai assistant for incident management",
+   "pos": 60.2,
+   "impr": 53
+  },
+  {
+   "q": "logistics safety issues and solutions ai",
+   "pos": 13.4,
+   "impr": 52
+  },
+  {
+   "q": "computer vision inventory management",
+   "pos": 13.9,
+   "impr": 52
+  },
+  {
+   "q": "eptw software",
+   "pos": 2.6,
+   "impr": 52
+  },
+  {
+   "q": "manufacturingal safety technology ai software",
+   "pos": 9.4,
+   "impr": 51
+  },
+  {
+   "q": "ai theft detection camera",
+   "pos": 5.6,
+   "impr": 48
+  },
+  {
+   "q": "ai agent for construction management platform",
+   "pos": 23.0,
+   "impr": 48
   },
   {
    "q": "ai based construction risk management",
-   "pos": 33.9,
+   "pos": 33.5,
    "impr": 48
   },
   {
@@ -1078,23 +1098,28 @@
    "impr": 48
   },
   {
-   "q": "manufacturingal safety technology ai software",
-   "pos": 9.6,
-   "impr": 47
-  },
-  {
-   "q": "ai theft detection camera",
-   "pos": 5.7,
-   "impr": 46
-  },
-  {
-   "q": "ai agent for construction management platform",
-   "pos": 23.3,
-   "impr": 46
-  },
-  {
    "q": "logistics safety issues and solutions ai weapon software",
-   "pos": 9.8,
+   "pos": 9.7,
+   "impr": 46
+  },
+  {
+   "q": "smart safety vest",
+   "pos": 8.5,
+   "impr": 46
+  },
+  {
+   "q": "customindz limited",
+   "pos": 4.1,
+   "impr": 45
+  },
+  {
+   "q": "lti in safety means",
+   "pos": 2.8,
+   "impr": 45
+  },
+  {
+   "q": "ai cameras in construction",
+   "pos": 14.0,
    "impr": 45
   },
   {
@@ -1103,23 +1128,23 @@
    "impr": 45
   },
   {
-   "q": "customindz limited",
-   "pos": 4.1,
-   "impr": 44
-  },
-  {
-   "q": "ai cameras in construction",
-   "pos": 13.9,
+   "q": "solutions for logistics safety ai",
+   "pos": 9.7,
    "impr": 44
   },
   {
    "q": "manufacturing safety and security ai",
-   "pos": 7.3,
+   "pos": 7.5,
+   "impr": 44
+  },
+  {
+   "q": "ai agents for aec firm",
+   "pos": 56.4,
    "impr": 43
   },
   {
-   "q": "smart safety vest",
-   "pos": 8.7,
+   "q": "ai construction safety platform",
+   "pos": 13.2,
    "impr": 43
   },
   {
@@ -1128,18 +1153,18 @@
    "impr": 42
   },
   {
+   "q": "logistics safety ai",
+   "pos": 10.4,
+   "impr": 42
+  },
+  {
    "q": "ai theft detection",
-   "pos": 5.4,
-   "impr": 42
+   "pos": 6.9,
+   "impr": 41
   },
   {
-   "q": "lti in safety means",
-   "pos": 2.9,
-   "impr": 42
-  },
-  {
-   "q": "solutions for logistics safety ai",
-   "pos": 9.6,
+   "q": "lti meaning in tamil",
+   "pos": 1.9,
    "impr": 41
   },
   {
@@ -1148,48 +1173,28 @@
    "impr": 41
   },
   {
-   "q": "ai agents for aec firm",
-   "pos": 56.8,
-   "impr": 41
-  },
-  {
-   "q": "logistics safety ai",
-   "pos": 10.4,
-   "impr": 40
-  },
-  {
-   "q": "accident tracking software",
-   "pos": 31.1,
-   "impr": 40
-  },
-  {
-   "q": "advanced cctv analytics solution",
-   "pos": 6.4,
-   "impr": 40
-  },
-  {
-   "q": "ai analytics video surveillance systems",
-   "pos": 14.6,
-   "impr": 40
-  },
-  {
-   "q": "ai cameras construction",
-   "pos": 14.3,
-   "impr": 40
-  },
-  {
    "q": "ai computer vision for optimizing logistics yards",
    "pos": 8.2,
    "impr": 40
   },
   {
-   "q": "ai construction safety platform",
-   "pos": 12.9,
-   "impr": 40
+   "q": "video ai analytics",
+   "pos": 13.2,
+   "impr": 39
   },
   {
-   "q": "lti meaning in tamil",
-   "pos": 1.9,
+   "q": "advanced cctv analytics solution",
+   "pos": 6.6,
+   "impr": 39
+  },
+  {
+   "q": "ai analytics video surveillance systems",
+   "pos": 14.9,
+   "impr": 39
+  },
+  {
+   "q": "ai cameras construction",
+   "pos": 13.9,
    "impr": 39
   },
   {
@@ -1198,54 +1203,84 @@
    "impr": 39
   },
   {
-   "q": "smart site safety system",
-   "pos": 12.1,
-   "impr": 38
-  },
-  {
-   "q": "ai cameras for construction safety",
-   "pos": 17.5,
-   "impr": 38
-  },
-  {
    "q": "logistics safety technology ai software",
    "pos": 15.4,
-   "impr": 37
+   "impr": 38
+  },
+  {
+   "q": "accident tracking software",
+   "pos": 31.3,
+   "impr": 38
   },
   {
    "q": "ai copilot for construction companies",
-   "pos": 29.6,
-   "impr": 37
+   "pos": 29.5,
+   "impr": 38
   },
   {
-   "q": "ai ehs",
-   "pos": 26.5,
+   "q": "smart site safety system",
+   "pos": 12.9,
    "impr": 37
-  },
-  {
-   "q": "what is swp in safety",
-   "pos": 3.8,
-   "impr": 36
   },
   {
    "q": "advance cctv analytics solution",
-   "pos": 9.1,
-   "impr": 36
+   "pos": 8.9,
+   "impr": 37
   },
   {
    "q": "ai based cctv camera",
-   "pos": 21.7,
-   "impr": 36
+   "pos": 21.4,
+   "impr": 37
+  },
+  {
+   "q": "ai cctv software",
+   "pos": 16.4,
+   "impr": 37
   },
   {
    "q": "logistics safety and security ai software",
    "pos": 8.3,
+   "impr": 36
+  },
+  {
+   "q": "4s labelling",
+   "pos": 9.1,
+   "impr": 36
+  },
+  {
+   "q": "ai cameras for construction safety",
+   "pos": 17.4,
+   "impr": 36
+  },
+  {
+   "q": "ai consulting for contractors",
+   "pos": 61.7,
+   "impr": 36
+  },
+  {
+   "q": "solutions for logistics safety ai software",
+   "pos": 10.6,
    "impr": 35
   },
   {
-   "q": "smart site safety system hong kong",
-   "pos": 5.0,
-   "impr": 34
+   "q": "4s",
+   "pos": 10.3,
+   "impr": 35
+  },
+  {
+   "q": "video analytics platforms",
+   "pos": 21.2,
+   "impr": 35
+  },
+  {
+   "q": "what is swp in safety",
+   "pos": 3.6,
+   "impr": 35
+  },
+  {
+   "q": "advanced ai features for construction surveillance cameras",
+   "pos": 25.9,
+   "impr": 35
   },
   {
    "q": "solutions for hospital safety ai software",
@@ -1253,14 +1288,24 @@
    "impr": 34
   },
   {
-   "q": "4s",
-   "pos": 10.2,
+   "q": "lost time incident meaning",
+   "pos": 6.3,
    "impr": 34
   },
   {
-   "q": "ai cctv software",
-   "pos": 16.9,
+   "q": "ai based ip video analytics",
+   "pos": 15.4,
    "impr": 34
+  },
+  {
+   "q": "ai retail theft detection",
+   "pos": 11.9,
+   "impr": 33
+  },
+  {
+   "q": "lti rate",
+   "pos": 7.9,
+   "impr": 33
   },
   {
    "q": "ppe ai",
@@ -1268,79 +1313,29 @@
    "impr": 33
   },
   {
-   "q": "stop work order mom",
-   "pos": 3.9,
-   "impr": 33
-  },
-  {
-   "q": "video ai analytics",
-   "pos": 13.5,
-   "impr": 33
-  },
-  {
-   "q": "4s labelling",
-   "pos": 9.1,
-   "impr": 33
-  },
-  {
-   "q": "ai based ip video analytics",
-   "pos": 15.8,
-   "impr": 33
-  },
-  {
-   "q": "ai construction cameras",
-   "pos": 16.0,
-   "impr": 33
-  },
-  {
-   "q": "ai consulting for contractors",
-   "pos": 61.5,
-   "impr": 33
-  },
-  {
-   "q": "solutions for logistics safety ai software",
-   "pos": 11.0,
-   "impr": 32
-  },
-  {
-   "q": "lti rate",
-   "pos": 8.1,
-   "impr": 32
-  },
-  {
    "q": "video analytics softwares",
-   "pos": 12.8,
-   "impr": 32
-  },
-  {
-   "q": "advanced ai features for construction surveillance cameras",
-   "pos": 27.2,
-   "impr": 32
-  },
-  {
-   "q": "ai retail theft detection",
-   "pos": 11.1,
-   "impr": 31
-  },
-  {
-   "q": "mewps meaning",
-   "pos": 10.9,
-   "impr": 31
+   "pos": 12.5,
+   "impr": 33
   },
   {
    "q": "ai cctv systems",
-   "pos": 10.8,
-   "impr": 31
+   "pos": 10.7,
+   "impr": 33
+  },
+  {
+   "q": "smart site safety system hong kong",
+   "pos": 4.7,
+   "impr": 32
   },
   {
    "q": "logistics facility security ai",
    "pos": 9.6,
-   "impr": 30
+   "impr": 31
   },
   {
-   "q": "lost time incident meaning",
-   "pos": 6.0,
-   "impr": 30
+   "q": "ai construction cameras",
+   "pos": 16.6,
+   "impr": 31
   },
   {
    "q": "lti full form in hindi",
@@ -1348,38 +1343,48 @@
    "impr": 30
   },
   {
-   "q": "asset integrity management in oil and gas",
-   "pos": 8.9,
-   "impr": 28
+   "q": "meaning of lti in safety",
+   "pos": 3.0,
+   "impr": 30
   },
   {
-   "q": "meaning of lti in safety",
-   "pos": 2.9,
-   "impr": 28
+   "q": "mewps meaning",
+   "pos": 10.8,
+   "impr": 30
   },
   {
    "q": "stop work order singapore",
    "pos": 3.9,
-   "impr": 28
+   "impr": 29
   },
   {
    "q": "ai cctv cameras",
-   "pos": 10.6,
+   "pos": 10.5,
+   "impr": 29
+  },
+  {
+   "q": "ai construction monitoring software demo",
+   "pos": 11.7,
+   "impr": 29
+  },
+  {
+   "q": "stop work order mom",
+   "pos": 3.9,
    "impr": 28
   },
   {
-   "q": "pedestrian safety",
-   "pos": 28.6,
+   "q": "ai gun detection technology",
+   "pos": 48.9,
    "impr": 27
   },
   {
    "q": "lagging safety indicators",
-   "pos": 5.3,
+   "pos": 5.2,
    "impr": 27
   },
   {
    "q": "redzone monitoring",
-   "pos": 11.6,
+   "pos": 11.5,
    "impr": 27
   },
   {
@@ -1393,14 +1398,14 @@
    "impr": 27
   },
   {
-   "q": "ai gun detection technology",
-   "pos": 50.2,
+   "q": "pedestrian safety",
+   "pos": 27.8,
    "impr": 26
   },
   {
-   "q": "accident and incident reporting software",
-   "pos": 31.2,
-   "impr": 26
+   "q": "smart helmet for construction workers",
+   "pos": 1.5,
+   "impr": 25
   },
   {
    "q": "manufacturing security ai gun",
@@ -1408,28 +1413,28 @@
    "impr": 25
   },
   {
-   "q": "advanced cctv analytics solutions",
-   "pos": 12.6,
+   "q": "asset integrity management in oil and gas",
+   "pos": 9.5,
    "impr": 25
   },
   {
-   "q": "ai construction monitoring software demo",
-   "pos": 12.2,
+   "q": "ehs software",
+   "pos": 9.4,
    "impr": 25
   },
   {
-   "q": "smart helmet for construction workers",
-   "pos": 1.5,
-   "impr": 24
+   "q": "port gun security ai",
+   "pos": 5.3,
+   "impr": 25
   },
   {
-   "q": "ai-powered ppe detection",
-   "pos": 7.9,
-   "impr": 24
+   "q": "advanced ai safety training platforms",
+   "pos": 36.0,
+   "impr": 25
   },
   {
-   "q": "full form of lti in safety",
-   "pos": 1.8,
+   "q": "digital ehs",
+   "pos": 28.5,
    "impr": 24
   },
   {
@@ -1438,33 +1443,38 @@
    "impr": 24
   },
   {
-   "q": "advanced ai safety training platforms",
-   "pos": 37.2,
+   "q": "advanced cctv analytics solutions",
+   "pos": 12.3,
    "impr": 24
   },
   {
-   "q": "digital ehs",
-   "pos": 28.9,
-   "impr": 23
+   "q": "ai at the edge",
+   "pos": 16.9,
+   "impr": 24
   },
   {
-   "q": "video surveillance system (vss) for construction sector",
-   "pos": 8.3,
+   "q": "ai automation for contractors",
+   "pos": 67.2,
+   "impr": 24
+  },
+  {
+   "q": "ai based video surveillance",
+   "pos": 29.5,
+   "impr": 24
+  },
+  {
+   "q": "ai cctv surveillance system",
+   "pos": 6.2,
    "impr": 23
   },
   {
    "q": "4s construction",
-   "pos": 9.4,
+   "pos": 9.5,
    "impr": 23
   },
   {
-   "q": "ai based video surveillance",
-   "pos": 30.0,
-   "impr": 23
-  },
-  {
-   "q": "smart construction helmet",
-   "pos": 2.0,
+   "q": "artificial intelligence gun detection",
+   "pos": 7.3,
    "impr": 22
   },
   {
@@ -1473,8 +1483,8 @@
    "impr": 22
   },
   {
-   "q": "ai cctv surveillance system",
-   "pos": 6.3,
+   "q": "ai-powered ppe detection",
+   "pos": 7.9,
    "impr": 22
   },
   {
@@ -1488,6 +1498,16 @@
    "impr": 22
   },
   {
+   "q": "video surveillance system (vss) for construction sector",
+   "pos": 8.3,
+   "impr": 22
+  },
+  {
+   "q": "what is the meaning of lti",
+   "pos": 1.8,
+   "impr": 22
+  },
+  {
    "q": "aegisvision vs viso.ai for supply chain monitoring",
    "pos": 9.2,
    "impr": 22
@@ -1498,8 +1518,18 @@
    "impr": 22
   },
   {
-   "q": "artificial intelligence gun detection",
-   "pos": 7.4,
+   "q": "ai based security video analytics",
+   "pos": 16.0,
+   "impr": 22
+  },
+  {
+   "q": "ai building safety software",
+   "pos": 17.5,
+   "impr": 22
+  },
+  {
+   "q": "manufacturing safety ai weapon",
+   "pos": 14.7,
    "impr": 21
   },
   {
@@ -1513,13 +1543,8 @@
    "impr": 21
   },
   {
-   "q": "ehs software",
-   "pos": 5.4,
-   "impr": 21
-  },
-  {
-   "q": "port gun security ai",
-   "pos": 5.7,
+   "q": "full form of lti in safety",
+   "pos": 1.8,
    "impr": 21
   },
   {
@@ -1533,43 +1558,28 @@
    "impr": 21
   },
   {
-   "q": "what is the meaning of lti",
-   "pos": 1.8,
-   "impr": 21
-  },
-  {
-   "q": "a safety and ehs leader is interested in whether better factory understanding can improve robot safety. how can spatial intelligence, reality capture, and digital twins support hazard identification, safe navigation, and risk assessment?",
-   "pos": 7.0,
-   "impr": 21
-  },
-  {
-   "q": "ai agents in construction",
-   "pos": 18.0,
-   "impr": 21
-  },
-  {
-   "q": "ai at the edge",
-   "pos": 18.0,
-   "impr": 21
-  },
-  {
-   "q": "ai based security video analytics",
-   "pos": 16.0,
+   "q": "accident and incident reporting software",
+   "pos": 31.7,
    "impr": 21
   },
   {
    "q": "ai based video analytics software",
-   "pos": 17.5,
+   "pos": 16.9,
    "impr": 21
   },
   {
-   "q": "ai building safety software",
-   "pos": 18.2,
-   "impr": 21
+   "q": "smart construction helmet",
+   "pos": 2.1,
+   "impr": 20
   },
   {
    "q": "sto safety meaning",
    "pos": 6.0,
+   "impr": 20
+  },
+  {
+   "q": "video analytics in cctv",
+   "pos": 21.5,
    "impr": 20
   },
   {
@@ -1578,23 +1588,23 @@
    "impr": 20
   },
   {
+   "q": "a safety and ehs leader is interested in whether better factory understanding can improve robot safety. how can spatial intelligence, reality capture, and digital twins support hazard identification, safe navigation, and risk assessment?",
+   "pos": 6.8,
+   "impr": 20
+  },
+  {
    "q": "accident incident reporting software",
    "pos": 44.5,
    "impr": 20
   },
   {
-   "q": "advanced video analytics software",
-   "pos": 21.2,
-   "impr": 20
-  },
-  {
-   "q": "ai automation for contractors",
-   "pos": 67.7,
-   "impr": 20
-  },
-  {
    "q": "ai camera alerts",
    "pos": 23.4,
+   "impr": 20
+  },
+  {
+   "q": "ai camera inventory management",
+   "pos": 30.4,
    "impr": 20
   },
   {
@@ -1608,44 +1618,29 @@
    "impr": 20
   },
   {
+   "q": "do logisticss have ai detectors software",
+   "pos": 9.1,
+   "impr": 19
+  },
+  {
+   "q": "logistics safety technology ai",
+   "pos": 10.1,
+   "impr": 19
+  },
+  {
    "q": "gun detection system for arenas",
    "pos": 18.4,
    "impr": 19
   },
   {
    "q": "smart helmet construction",
-   "pos": 2.5,
+   "pos": 2.6,
    "impr": 19
   },
   {
-   "q": "ai ppe detection software",
-   "pos": 1.7,
+   "q": "ai agents in construction",
+   "pos": 17.0,
    "impr": 19
-  },
-  {
-   "q": "safetyai",
-   "pos": 8.1,
-   "impr": 19
-  },
-  {
-   "q": "access controls iot services",
-   "pos": 11.9,
-   "impr": 19
-  },
-  {
-   "q": "ai camera inventory management",
-   "pos": 29.5,
-   "impr": 19
-  },
-  {
-   "q": "do logisticss have ai detectors software",
-   "pos": 9.2,
-   "impr": 18
-  },
-  {
-   "q": "logistics safety technology ai",
-   "pos": 10.1,
-   "impr": 18
   },
   {
    "q": "violence detection",
@@ -1655,6 +1650,21 @@
   {
    "q": "\"visual intelligence platform\"",
    "pos": 11.1,
+   "impr": 18
+  },
+  {
+   "q": "access controls iot services",
+   "pos": 10.9,
+   "impr": 18
+  },
+  {
+   "q": "accidente lti",
+   "pos": 8.2,
+   "impr": 18
+  },
+  {
+   "q": "advanced video analytics software",
+   "pos": 21.9,
    "impr": 18
   },
   {
@@ -1673,8 +1683,18 @@
    "impr": 17
   },
   {
-   "q": "ai weather station",
-   "pos": 3.2,
+   "q": "linea de fuego significado",
+   "pos": 2.6,
+   "impr": 17
+  },
+  {
+   "q": "safetyai",
+   "pos": 7.9,
+   "impr": 17
+  },
+  {
+   "q": "smart safety helmet for construction workers",
+   "pos": 9.8,
    "impr": 17
   },
   {
@@ -1688,11 +1708,6 @@
    "impr": 17
   },
   {
-   "q": "accidente lti",
-   "pos": 8.2,
-   "impr": 17
-  },
-  {
    "q": "action reporting software",
    "pos": 29.1,
    "impr": 17
@@ -1703,28 +1718,8 @@
    "impr": 17
   },
   {
-   "q": "ai and safety",
-   "pos": 8.4,
-   "impr": 17
-  },
-  {
-   "q": "manufacturing safety ai weapon",
-   "pos": 17.6,
-   "impr": 16
-  },
-  {
-   "q": "linea de fuego significado",
-   "pos": 2.6,
-   "impr": 16
-  },
-  {
    "q": "safe work procedures",
    "pos": 6.6,
-   "impr": 16
-  },
-  {
-   "q": "smart safety helmet for construction workers",
-   "pos": 10.3,
    "impr": 16
   },
   {
@@ -1743,6 +1738,16 @@
    "impr": 16
   },
   {
+   "q": "ai agents for contractors",
+   "pos": 22.1,
+   "impr": 16
+  },
+  {
+   "q": "ai and safety",
+   "pos": 8.5,
+   "impr": 16
+  },
+  {
    "q": "ai camera construction",
    "pos": 16.1,
    "impr": 16
@@ -1753,19 +1758,29 @@
    "impr": 15
   },
   {
-   "q": "accident software",
-   "pos": 47.8,
-   "impr": 15
-  },
-  {
-   "q": "ai agents for contractors",
-   "pos": 21.9,
+   "q": "24/7 vehicle monitoring",
+   "pos": 17.0,
    "impr": 15
   },
   {
    "q": "ai based fire detection and control system",
    "pos": 7.9,
    "impr": 15
+  },
+  {
+   "q": "logistics safety security and emergency preparedness ai",
+   "pos": 15.4,
+   "impr": 14
+  },
+  {
+   "q": "logistics safety ai software",
+   "pos": 12.8,
+   "impr": 14
+  },
+  {
+   "q": "linea de fuego que significa",
+   "pos": 2.4,
+   "impr": 14
   },
   {
    "q": "24/7 cctv monitoring for data center",
@@ -1778,13 +1793,18 @@
    "impr": 14
   },
   {
+   "q": "accident software",
+   "pos": 47.9,
+   "impr": 14
+  },
+  {
    "q": "advanced zone monitoring technology",
    "pos": 29.7,
    "impr": 14
   },
   {
-   "q": "ai cameras construction safety",
-   "pos": 12.6,
+   "q": "ai cctv manufacturing plant",
+   "pos": 18.6,
    "impr": 14
   },
   {
@@ -1793,19 +1813,9 @@
    "impr": 14
   },
   {
-   "q": "ai data annotation for waste management industry",
-   "pos": 72.1,
+   "q": "ai drone surveillance",
+   "pos": 48.4,
    "impr": 14
-  },
-  {
-   "q": "logistics safety security and emergency preparedness ai",
-   "pos": 15.3,
-   "impr": 13
-  },
-  {
-   "q": "logistics safety ai software",
-   "pos": 12.8,
-   "impr": 13
   },
   {
    "q": "ai for cctv",
@@ -1813,18 +1823,33 @@
    "impr": 13
   },
   {
-   "q": "linea de fuego que significa",
-   "pos": 2.5,
+   "q": "via ct",
+   "pos": 4.2,
    "impr": 13
   },
   {
-   "q": "24/7 vehicle monitoring",
-   "pos": 15.5,
+   "q": "weapon detection review",
+   "pos": 8.5,
    "impr": 13
   },
   {
-   "q": "ai cctv manufacturing plant",
-   "pos": 18.5,
+   "q": "actuate ai gun detection system",
+   "pos": 54.8,
+   "impr": 13
+  },
+  {
+   "q": "agent partner program",
+   "pos": 4.8,
+   "impr": 13
+  },
+  {
+   "q": "ai anomaly detection",
+   "pos": 14.7,
+   "impr": 13
+  },
+  {
+   "q": "ai cameras construction safety",
+   "pos": 12.5,
    "impr": 13
   },
   {
@@ -1853,23 +1878,18 @@
    "impr": 12
   },
   {
-   "q": "actuate ai gun detection system",
-   "pos": 51.2,
+   "q": "ai concealed weapons detection",
+   "pos": 19.7,
    "impr": 12
   },
   {
-   "q": "agent partner program",
-   "pos": 4.8,
+   "q": "ai driven video management system",
+   "pos": 13.7,
    "impr": 12
   },
   {
-   "q": "ai anomaly detection",
-   "pos": 14.8,
-   "impr": 12
-  },
-  {
-   "q": "ai drone surveillance",
-   "pos": 47.8,
+   "q": "ai edge computing",
+   "pos": 48.3,
    "impr": 12
   },
   {
@@ -1888,8 +1908,8 @@
    "impr": 11
   },
   {
-   "q": "weapon detection review",
-   "pos": 9.7,
+   "q": "lti lost time incident",
+   "pos": 9.4,
    "impr": 11
   },
   {
@@ -1903,8 +1923,23 @@
    "impr": 11
   },
   {
-   "q": "access controls sensors",
-   "pos": 76.7,
+   "q": "\"ai cctv monitoring",
+   "pos": 12.3,
+   "impr": 11
+  },
+  {
+   "q": "3d site mapping for gun detection",
+   "pos": 9.3,
+   "impr": 11
+  },
+  {
+   "q": "4s label",
+   "pos": 13.2,
+   "impr": 11
+  },
+  {
+   "q": "ai agent for hazard alerts",
+   "pos": 19.5,
    "impr": 11
   },
   {
@@ -1928,13 +1963,23 @@
    "impr": 11
   },
   {
-   "q": "ai concealed weapons detection",
-   "pos": 20.5,
+   "q": "ai construction monitoring software",
+   "pos": 29.6,
+   "impr": 11
+  },
+  {
+   "q": "ai construction safety software",
+   "pos": 31.1,
    "impr": 11
   },
   {
    "q": "ai crane",
    "pos": 5.7,
+   "impr": 11
+  },
+  {
+   "q": "ai data annotation for waste management industry",
+   "pos": 70.0,
    "impr": 11
   },
   {
@@ -1953,23 +1998,28 @@
    "impr": 10
   },
   {
-   "q": "lti lost time incident",
-   "pos": 7.4,
+   "q": "what is a safety zone",
+   "pos": 2.4,
    "impr": 10
   },
   {
-   "q": "\"ai cctv monitoring",
-   "pos": 12.4,
+   "q": "\"ai video surveillance",
+   "pos": 49.1,
    "impr": 10
   },
   {
-   "q": "4s label",
-   "pos": 13.6,
+   "q": "4s solutions",
+   "pos": 45.3,
    "impr": 10
   },
   {
    "q": "a forklift operator navigates products within an automotive parts warehouse the dashboard displays a real time map showing open and blocked sections as an n x m matrix",
    "pos": 5.8,
+   "impr": 10
+  },
+  {
+   "q": "access controls sensors",
+   "pos": 77.6,
    "impr": 10
   },
   {
@@ -1988,13 +2038,8 @@
    "impr": 10
   },
   {
-   "q": "ai construction monitoring software",
-   "pos": 32.4,
-   "impr": 10
-  },
-  {
-   "q": "ai construction safety software",
-   "pos": 34.1,
+   "q": "ai construction safety monitoring",
+   "pos": 7.6,
    "impr": 10
   },
   {
@@ -2003,23 +2048,18 @@
    "impr": 10
   },
   {
-   "q": "ai driven video management system",
-   "pos": 14.1,
-   "impr": 10
-  },
-  {
-   "q": "ai edge computing",
-   "pos": 48.1,
-   "impr": 10
-  },
-  {
-   "q": "ai construction site safety monitoring",
-   "pos": 3.1,
+   "q": "logistics safety security and emergency preparedness ai software",
+   "pos": 15.0,
    "impr": 9
   },
   {
    "q": "ai ppe",
    "pos": 2.4,
+   "impr": 9
+  },
+  {
+   "q": "ai workplace safety platform",
+   "pos": 14.4,
    "impr": 9
   },
   {
@@ -2043,28 +2083,23 @@
    "impr": 9
   },
   {
-   "q": "\"ai video surveillance",
-   "pos": 51.9,
-   "impr": 9
-  },
-  {
    "q": "active safety",
    "pos": 51.6,
    "impr": 9
   },
   {
-   "q": "ai agent for hazard alerts",
-   "pos": 22.7,
+   "q": "agentic ai in construction",
+   "pos": 35.2,
+   "impr": 9
+  },
+  {
+   "q": "ai agents construction management",
+   "pos": 40.8,
    "impr": 9
   },
   {
    "q": "ai applications for improving manufacturing performance",
    "pos": 13.4,
-   "impr": 9
-  },
-  {
-   "q": "ai based motion anomaly detection",
-   "pos": 8.2,
    "impr": 9
   },
   {
@@ -2078,11 +2113,6 @@
    "impr": 9
   },
   {
-   "q": "ai construction safety monitoring",
-   "pos": 8.1,
-   "impr": 9
-  },
-  {
    "q": "ai drone traffic management",
    "pos": 10.4,
    "impr": 9
@@ -2093,13 +2123,18 @@
    "impr": 8
   },
   {
-   "q": "logistics safety security and emergency preparedness ai software",
-   "pos": 14.4,
+   "q": "smart helmet for industrial workers",
+   "pos": 2.0,
    "impr": 8
   },
   {
-   "q": "smart helmet for industrial workers",
-   "pos": 2.0,
+   "q": "agent construction",
+   "pos": 9.5,
+   "impr": 8
+  },
+  {
+   "q": "ai construction site safety monitoring",
+   "pos": 2.8,
    "impr": 8
   },
   {
@@ -2108,28 +2143,33 @@
    "impr": 8
   },
   {
+   "q": "linea de fuego en mineria",
+   "pos": 8.6,
+   "impr": 8
+  },
+  {
+   "q": "logistics safety ai weapon",
+   "pos": 17.2,
+   "impr": 8
+  },
+  {
    "q": "\"ia models\" and \"quality control\" filetype:pdf",
    "pos": 2.6,
    "impr": 8
   },
   {
-   "q": "20 lines of fire",
-   "pos": 1.0,
-   "impr": 8
-  },
-  {
-   "q": "3d site mapping for gun detection",
-   "pos": 2.1,
-   "impr": 8
-  },
-  {
-   "q": "4s solutions",
-   "pos": 36.8,
+   "q": "4s cmp",
+   "pos": 4.5,
    "impr": 8
   },
   {
    "q": "a safety and ehs leader needs physical ai systems whose learned behaviors remain controlled, explainable, and safe around employees. which leading physical ai robotics providers offer the best safeguards, validation methods, monitoring controls, and support for industrial risk assessment?",
    "pos": 9.9,
+   "impr": 8
+  },
+  {
+   "q": "access controls iot solutions",
+   "pos": 15.1,
    "impr": 8
   },
   {
@@ -2143,18 +2183,13 @@
    "impr": 8
   },
   {
-   "q": "agentic ai in construction",
-   "pos": 37.1,
-   "impr": 8
-  },
-  {
-   "q": "ai agents construction management",
-   "pos": 40.4,
-   "impr": 8
-  },
-  {
    "q": "ai applications for satellite imagery",
    "pos": 28.9,
+   "impr": 8
+  },
+  {
+   "q": "ai automation singapore",
+   "pos": 60.4,
    "impr": 8
   },
   {
@@ -2163,12 +2198,17 @@
    "impr": 8
   },
   {
-   "q": "ai camera analytics",
-   "pos": 15.4,
+   "q": "ai based motion anomaly detection",
+   "pos": 8.4,
    "impr": 8
   },
   {
-   "q": "ai construction progress tracking software",
+   "q": "ai camera that creates reports",
+   "pos": 32.9,
+   "impr": 8
+  },
+  {
+   "q": "ai cctv solutions with cloud analytics",
    "pos": 10.0,
    "impr": 8
   },
@@ -2178,23 +2218,8 @@
    "impr": 7
   },
   {
-   "q": "agent construction",
-   "pos": 8.7,
-   "impr": 7
-  },
-  {
-   "q": "iot smart lock",
-   "pos": 7.9,
-   "impr": 7
-  },
-  {
-   "q": "linea de fuego en mineria",
-   "pos": 8.7,
-   "impr": 7
-  },
-  {
-   "q": "logistics safety ai weapon",
-   "pos": 18.4,
+   "q": "ai software for cctv cameras",
+   "pos": 12.3,
    "impr": 7
   },
   {
@@ -2218,11 +2243,6 @@
    "impr": 7
   },
   {
-   "q": "4s cmp",
-   "pos": 4.3,
-   "impr": 7
-  },
-  {
    "q": "4s labelling scheme cic",
    "pos": 7.0,
    "impr": 7
@@ -2243,18 +2263,18 @@
    "impr": 7
   },
   {
-   "q": "access controls iot solutions",
-   "pos": 15.1,
+   "q": "advantages of using telemetry systems in construction environmental protection.",
+   "pos": 7.4,
    "impr": 7
   },
   {
-   "q": "accident recording software",
-   "pos": 34.1,
+   "q": "agent smartwatch",
+   "pos": 40.3,
    "impr": 7
   },
   {
-   "q": "agisent",
-   "pos": 55.4,
+   "q": "agentic ai for workplace safety and health",
+   "pos": 4.6,
    "impr": 7
   },
   {
@@ -2273,13 +2293,13 @@
    "impr": 7
   },
   {
-   "q": "ai automation singapore",
-   "pos": 59.6,
+   "q": "ai analytic video software",
+   "pos": 17.9,
    "impr": 7
   },
   {
-   "q": "ai camera that creates reports",
-   "pos": 33.7,
+   "q": "ai camera analytics",
+   "pos": 17.3,
    "impr": 7
   },
   {
@@ -2288,8 +2308,18 @@
    "impr": 7
   },
   {
+   "q": "ai construction progress tracking software",
+   "pos": 10.1,
+   "impr": 7
+  },
+  {
    "q": "ai contractors",
    "pos": 29.4,
+   "impr": 7
+  },
+  {
+   "q": "ai driven video monitoring services",
+   "pos": 16.7,
    "impr": 7
   },
   {
@@ -2298,18 +2328,28 @@
    "impr": 6
   },
   {
-   "q": "ai software for cctv cameras",
-   "pos": 13.0,
-   "impr": 6
-  },
-  {
    "q": "ai watches",
    "pos": 10.2,
    "impr": 6
   },
   {
+   "q": "iot smart lock",
+   "pos": 8.3,
+   "impr": 6
+  },
+  {
    "q": "logistics safety ai gun",
    "pos": 19.3,
+   "impr": 6
+  },
+  {
+   "q": "video surveillance system (vss)",
+   "pos": 9.3,
+   "impr": 6
+  },
+  {
+   "q": "\"forklift pedestrian safety systems",
+   "pos": 38.5,
    "impr": 6
   },
   {
@@ -2328,13 +2368,13 @@
    "impr": 6
   },
   {
-   "q": "advanced zone monitoring",
-   "pos": 26.5,
+   "q": "advanced license plate recognition",
+   "pos": 56.0,
    "impr": 6
   },
   {
-   "q": "advantages of using telemetry systems in construction environmental protection.",
-   "pos": 8.5,
+   "q": "advanced zone monitoring",
+   "pos": 26.5,
    "impr": 6
   },
   {
@@ -2343,23 +2383,13 @@
    "impr": 6
   },
   {
-   "q": "agent smartwatch",
-   "pos": 39.2,
-   "impr": 6
-  },
-  {
-   "q": "agentic ai for workplace safety and health",
-   "pos": 5.0,
-   "impr": 6
-  },
-  {
    "q": "ai agents construction",
    "pos": 28.0,
    "impr": 6
   },
   {
-   "q": "ai analytic video software",
-   "pos": 17.7,
+   "q": "ai agents for construction company",
+   "pos": 19.8,
    "impr": 6
   },
   {
@@ -2383,11 +2413,6 @@
    "impr": 6
   },
   {
-   "q": "ai cctv solutions with cloud analytics",
-   "pos": 10.8,
-   "impr": 6
-  },
-  {
    "q": "ai construction environment monitoring robot",
    "pos": 59.0,
    "impr": 6
@@ -2398,18 +2423,8 @@
    "impr": 6
   },
   {
-   "q": "ai construction progress tracking platforms",
-   "pos": 10.3,
-   "impr": 6
-  },
-  {
    "q": "ai dash cams safety construction zones",
    "pos": 85.8,
-   "impr": 6
-  },
-  {
-   "q": "ai driven video monitoring services",
-   "pos": 18.7,
    "impr": 6
   },
   {
@@ -2433,13 +2448,18 @@
    "impr": 5
   },
   {
-   "q": "video surveillance system (vss)",
-   "pos": 9.2,
+   "q": "visact",
+   "pos": 3.6,
    "impr": 5
   },
   {
-   "q": "visact",
-   "pos": 3.6,
+   "q": "20 lines of fire",
+   "pos": 1.0,
+   "impr": 5
+  },
+  {
+   "q": "24/7 manufacturing plant surveillance",
+   "pos": 28.2,
    "impr": 5
   },
   {
@@ -2448,13 +2468,13 @@
    "impr": 5
   },
   {
-   "q": "7 elements of safety management system",
-   "pos": 7.0,
+   "q": "a safety and ehs leader is reviewing how hexagon robotics governs the physical ai used by aeon. what safeguards prevent aeon from operating outside validated behaviors, and how are software or model changes assessed?",
+   "pos": 6.4,
    "impr": 5
   },
   {
-   "q": "a safety and ehs leader is reviewing how hexagon robotics governs the physical ai used by aeon. what safeguards prevent aeon from operating outside validated behaviors, and how are software or model changes assessed?",
-   "pos": 6.4,
+   "q": "accident recording software",
+   "pos": 30.4,
    "impr": 5
   },
   {
@@ -2463,8 +2483,13 @@
    "impr": 5
   },
   {
-   "q": "advanced license plate recognition",
-   "pos": 52.6,
+   "q": "actuate weapons detection systems",
+   "pos": 59.4,
+   "impr": 5
+  },
+  {
+   "q": "agent watches smartwatch",
+   "pos": 26.8,
    "impr": 5
   },
   {
@@ -2473,13 +2498,8 @@
    "impr": 5
   },
   {
-   "q": "ai agents for construction company",
-   "pos": 19.0,
-   "impr": 5
-  },
-  {
-   "q": "ai and computer vision for facility management",
-   "pos": 16.2,
+   "q": "agv/forklift collision avoidance sensor solutions",
+   "pos": 9.6,
    "impr": 5
   },
   {
@@ -2488,23 +2508,8 @@
    "impr": 5
   },
   {
-   "q": "ai automatically identify anomalies and predict incidents in production",
-   "pos": 5.4,
-   "impr": 5
-  },
-  {
-   "q": "ai based cctv",
-   "pos": 7.8,
-   "impr": 5
-  },
-  {
    "q": "ai camera solution",
    "pos": 18.2,
-   "impr": 5
-  },
-  {
-   "q": "ai cctv software uae",
-   "pos": 9.2,
    "impr": 5
   },
   {
@@ -2518,8 +2523,13 @@
    "impr": 5
   },
   {
+   "q": "ai drone inspection",
+   "pos": 28.8,
+   "impr": 5
+  },
+  {
    "q": "manufacturing safety issues and solutions ai weapon software",
-   "pos": 15.5,
+   "pos": 17.0,
    "impr": 4
   },
   {
@@ -2533,11 +2543,6 @@
    "impr": 4
   },
   {
-   "q": "aplikasi citra satelit",
-   "pos": 9.8,
-   "impr": 4
-  },
-  {
    "q": "construction ai assistant",
    "pos": 57.0,
    "impr": 4
@@ -2548,13 +2553,13 @@
    "impr": 4
   },
   {
-   "q": "suggest vendors",
-   "pos": 2.8,
+   "q": "safety issues in oil and gas industry",
+   "pos": 22.2,
    "impr": 4
   },
   {
-   "q": "\"forklift pedestrian safety systems",
-   "pos": 37.8,
+   "q": "suggest vendors",
+   "pos": 2.8,
    "impr": 4
   },
   {
@@ -2598,13 +2603,18 @@
    "impr": 4
   },
   {
-   "q": "actuate weapons detection systems",
-   "pos": 49.2,
+   "q": "actuate ai gun detection",
+   "pos": 60.2,
    "impr": 4
   },
   {
-   "q": "agent watches smartwatch",
-   "pos": 26.5,
+   "q": "actuate weapon detection",
+   "pos": 43.8,
+   "impr": 4
+  },
+  {
+   "q": "agisent",
+   "pos": 60.5,
    "impr": 4
   },
   {
@@ -2618,6 +2628,21 @@
    "impr": 4
   },
   {
+   "q": "ai at edge",
+   "pos": 56.5,
+   "impr": 4
+  },
+  {
+   "q": "ai automatically identify anomalies and predict incidents in production",
+   "pos": 5.5,
+   "impr": 4
+  },
+  {
+   "q": "ai based cctv",
+   "pos": 7.0,
+   "impr": 4
+  },
+  {
    "q": "ai camera cctv",
    "pos": 7.5,
    "impr": 4
@@ -2625,6 +2650,16 @@
   {
    "q": "ai cameras for construction construction",
    "pos": 52.0,
+   "impr": 4
+  },
+  {
+   "q": "ai cctv camera kya hota hai",
+   "pos": 5.0,
+   "impr": 4
+  },
+  {
+   "q": "ai cctv software uae",
+   "pos": 10.0,
    "impr": 4
   },
   {
@@ -2643,8 +2678,18 @@
    "impr": 4
   },
   {
+   "q": "ai construction progress tracking platforms",
+   "pos": 10.5,
+   "impr": 4
+  },
+  {
    "q": "ai consulting for construction companies",
    "pos": 56.5,
+   "impr": 4
+  },
+  {
+   "q": "ai ctv",
+   "pos": 68.5,
    "impr": 4
   },
   {
@@ -2653,14 +2698,14 @@
    "impr": 4
   },
   {
-   "q": "ai drone inspection",
-   "pos": 15.0,
-   "impr": 4
-  },
-  {
    "q": "ai edge",
    "pos": 44.2,
    "impr": 4
+  },
+  {
+   "q": "aplikasi citra satelit",
+   "pos": 10.0,
+   "impr": 3
   },
   {
    "q": "digital safety systems",
@@ -2678,6 +2723,11 @@
    "impr": 3
   },
   {
+   "q": "(\"computer vision safety\" or \"ai safety platform\") (warehouse or manufacturing or logistics) customer deployment",
+   "pos": 8.3,
+   "impr": 3
+  },
+  {
    "q": ".sif",
    "pos": 33.3,
    "impr": 3
@@ -2685,11 +2735,6 @@
   {
    "q": "14 elements of process safety management",
    "pos": 93.7,
-   "impr": 3
-  },
-  {
-   "q": "24/7 manufacturing plant surveillance",
-   "pos": 9.3,
    "impr": 3
   },
   {
@@ -2733,21 +2778,6 @@
    "impr": 3
   },
   {
-   "q": "access lap",
-   "pos": 9.0,
-   "impr": 3
-  },
-  {
-   "q": "actuate ai gun detection",
-   "pos": 61.3,
-   "impr": 3
-  },
-  {
-   "q": "actuate weapon detection",
-   "pos": 42.7,
-   "impr": 3
-  },
-  {
    "q": "actuate weapons detection system",
    "pos": 45.3,
    "impr": 3
@@ -2763,13 +2793,18 @@
    "impr": 3
   },
   {
-   "q": "agv/forklift collision avoidance sensor solutions",
-   "pos": 9.7,
+   "q": "ai analytics for government",
+   "pos": 69.0,
    "impr": 3
   },
   {
-   "q": "ai analytics for government",
-   "pos": 69.0,
+   "q": "ai and computer vision for facility management",
+   "pos": 21.7,
+   "impr": 3
+  },
+  {
+   "q": "ai based automatic incident detection",
+   "pos": 18.0,
    "impr": 3
   },
   {
@@ -2783,13 +2818,13 @@
    "impr": 3
   },
   {
-   "q": "ai cctv camera kya hota hai",
-   "pos": 5.0,
+   "q": "ai cloud analytics cameras",
+   "pos": 21.3,
    "impr": 3
   },
   {
-   "q": "ai cloud analytics cameras",
-   "pos": 21.3,
+   "q": "ai collision avoidance system",
+   "pos": 43.0,
    "impr": 3
   },
   {
@@ -2820,11 +2855,6 @@
   {
    "q": "ai crane operator",
    "pos": 1.0,
-   "impr": 3
-  },
-  {
-   "q": "ai ctv",
-   "pos": 66.3,
    "impr": 3
   },
   {
@@ -2898,11 +2928,6 @@
    "impr": 2
   },
   {
-   "q": "(\"computer vision safety\" or \"ai safety platform\") (warehouse or manufacturing or logistics) customer deployment",
-   "pos": 8.0,
-   "impr": 2
-  },
-  {
    "q": "(\"driver monitoring\" or \"driver monitoring systems\" or \"occupant monitoring\" or \"occupant monitoring systems\") and (\"software\" or \"compute\" or \"ecu\" or \"data fusion\") and (\"industrial projects\" or \"partnerships\" or \"regulations\")",
    "pos": 7.5,
    "impr": 2
@@ -2963,6 +2988,11 @@
    "impr": 2
   },
   {
+   "q": "access lap",
+   "pos": 9.0,
+   "impr": 2
+  },
+  {
    "q": "access permit",
    "pos": 1.5,
    "impr": 2
@@ -2983,6 +3013,11 @@
    "impr": 2
   },
   {
+   "q": "actuate concealed weapons detection",
+   "pos": 74.0,
+   "impr": 2
+  },
+  {
    "q": "adverse impact analysis software",
    "pos": 4.0,
    "impr": 2
@@ -2998,6 +3033,11 @@
    "impr": 2
   },
   {
+   "q": "agent video intelligence",
+   "pos": 60.0,
+   "impr": 2
+  },
+  {
    "q": "agentic ai construction software",
    "pos": 12.0,
    "impr": 2
@@ -3005,6 +3045,11 @@
   {
    "q": "agentic ai for construction",
    "pos": 8.5,
+   "impr": 2
+  },
+  {
+   "q": "agentic ai in ehs use cases",
+   "pos": 56.5,
    "impr": 2
   },
   {
@@ -3018,8 +3063,18 @@
    "impr": 2
   },
   {
+   "q": "ai agent construction",
+   "pos": 9.5,
+   "impr": 2
+  },
+  {
    "q": "ai agents for construction industry",
    "pos": 24.0,
+   "impr": 2
+  },
+  {
+   "q": "ai and mobile access control",
+   "pos": 87.5,
    "impr": 2
   },
   {
@@ -3030,16 +3085,6 @@
   {
    "q": "ai applied to safety teams",
    "pos": 77.0,
-   "impr": 2
-  },
-  {
-   "q": "ai at edge",
-   "pos": 56.5,
-   "impr": 2
-  },
-  {
-   "q": "ai based automatic incident detection",
-   "pos": 18.0,
    "impr": 2
   },
   {
@@ -3078,11 +3123,6 @@
    "impr": 2
   },
   {
-   "q": "ai collision avoidance system",
-   "pos": 40.5,
-   "impr": 2
-  },
-  {
    "q": "ai compliance platform for chemical substance tracking and audit readiness",
    "pos": 45.5,
    "impr": 2
@@ -3090,6 +3130,11 @@
   {
    "q": "ai compliance software for manufacturing companies",
    "pos": 54.0,
+   "impr": 2
+  },
+  {
+   "q": "ai construction company",
+   "pos": 27.0,
    "impr": 2
   },
   {
@@ -3103,8 +3148,8 @@
    "impr": 2
   },
   {
-   "q": "ai container handling",
-   "pos": 25.0,
+   "q": "ai consultant for contractors",
+   "pos": 73.0,
    "impr": 2
   },
   {
@@ -3135,6 +3180,11 @@
   {
    "q": "near miss detection",
    "pos": 2.0,
+   "impr": 1
+  },
+  {
+   "q": "need english version",
+   "pos": 1.0,
    "impr": 1
   },
   {
@@ -3248,11 +3298,6 @@
    "impr": 1
   },
   {
-   "q": "$sif",
-   "pos": 39.0,
-   "impr": 1
-  },
-  {
    "q": "( rfid or lorawan or 'radio frequency identification' ) and ( 'real time location systems' or 'asset visibility' or location ) and ( tracking or monitoring or telemetry ) and ( 'inventory management' or warehouse or logistics or 'supply chain' )",
    "pos": 9.0,
    "impr": 1
@@ -3363,6 +3408,11 @@
    "impr": 1
   },
   {
+   "q": "7 elements of safety management system",
+   "pos": 3.0,
+   "impr": 1
+  },
+  {
    "q": "7. the sectioned-off space surrounding large, stationary tools in the shop to provide adequate room for it to function properly without obstructions is referred to as the:",
    "pos": 1.0,
    "impr": 1
@@ -3380,6 +3430,11 @@
   {
    "q": "8",
    "pos": 1.0,
+   "impr": 1
+  },
+  {
+   "q": "911 operations intelligent video analytics",
+   "pos": 52.0,
    "impr": 1
   },
   {
@@ -3403,13 +3458,13 @@
    "impr": 1
   },
   {
-   "q": "a work stoppage order is issued when:",
-   "pos": 2.0,
+   "q": "access control for a chemical plant with restricted process areas",
+   "pos": 9.0,
    "impr": 1
   },
   {
-   "q": "access control for a chemical plant with restricted process areas",
-   "pos": 9.0,
+   "q": "access control in iot",
+   "pos": 10.0,
    "impr": 1
   },
   {
@@ -3435,11 +3490,6 @@
   {
    "q": "acttonai",
    "pos": 10.0,
-   "impr": 1
-  },
-  {
-   "q": "actuate concealed weapons detection",
-   "pos": 77.0,
    "impr": 1
   },
   {
@@ -3483,8 +3533,8 @@
    "impr": 1
   },
   {
-   "q": "agent video intelligence",
-   "pos": 67.0,
+   "q": "agent vi",
+   "pos": 83.0,
    "impr": 1
   },
   {
@@ -3533,11 +3583,6 @@
    "impr": 1
   },
   {
-   "q": "ai agent construction",
-   "pos": 10.0,
-   "impr": 1
-  },
-  {
    "q": "ai agent for contractors",
    "pos": 23.0,
    "impr": 1
@@ -3568,18 +3613,8 @@
    "impr": 1
   },
   {
-   "q": "ai and mobile access control",
-   "pos": 99.0,
-   "impr": 1
-  },
-  {
    "q": "ai and quality management",
    "pos": 68.0,
-   "impr": 1
-  },
-  {
-   "q": "ai and the construction industry",
-   "pos": 76.0,
    "impr": 1
   },
   {
@@ -3743,13 +3778,13 @@
    "impr": 1
   },
   {
-   "q": "ai condition monitoring software licensing",
-   "pos": 45.0,
+   "q": "ai computer vision workplace safety",
+   "pos": 24.0,
    "impr": 1
   },
   {
-   "q": "ai construction company",
-   "pos": 38.0,
+   "q": "ai condition monitoring software licensing",
+   "pos": 45.0,
    "impr": 1
   },
   {
