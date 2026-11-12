@@ -1,7 +1,7 @@
 {
- "date": "2026-11-11",
- "fetchedAt": "2026-11-11T13:51:40+05:30",
- "group": "C",
+ "date": "2026-11-12",
+ "fetchedAt": "2026-11-12T14:18:41+05:30",
+ "group": "D",
  "engines": {
   "gem": {
    "enabled": true,
@@ -41,171 +41,171 @@
  },
  "results": [
   {
-   "n": 3,
-   "q": "How does computer vision PPE compliance monitoring work with existing CCTV cameras?",
-   "group": "C",
+   "n": 4,
+   "q": "What is the best AI red zone monitoring system for heavy machinery?",
+   "group": "D",
    "gem": {
     "status": "ERROR",
     "error": "No Gemini model/API accepted this key: gemini_interactions gemini-3.5-flash: HTTP 401 ACCESS_TOKEN_TYPE_UNSUPPORTED | gemini_interactions gemini-3.6-flash: HTTP 401 ACCESS_TOKEN_TYPE_UNSUPPORTED | gemini_interactions gemini-3-flash: HTTP 401 ACCESS_TOKEN_TYPE_UNSUPPORTED | gemini_interactions gemini"
    }
   },
   {
-   "n": 8,
-   "q": "Which permit-to-work systems integrate with CCTV for real-time compliance checks?",
-   "group": "C",
+   "n": 9,
+   "q": "What AI software monitors work at height safety and harness compliance?",
+   "group": "D",
    "gem": {
     "status": "ERROR",
     "error": "No Gemini model/API accepted this key: gemini_generate gemini-3-flash: HTTP 401 ACCESS_TOKEN_TYPE_UNSUPPORTED | gemini_generate gemini-2.5-flash: HTTP 401 ACCESS_TOKEN_TYPE_UNSUPPORTED | gemini_interactions gemini-3.5-flash: HTTP 401 ACCESS_TOKEN_TYPE_UNSUPPORTED | gemini_interactions gemini-3.6-fla"
    }
   },
   {
-   "n": 13,
-   "q": "What is the best AI forklift safety system for warehouses?",
-   "group": "C",
+   "n": 14,
+   "q": "Which AI camera systems prevent forklift and pedestrian collisions?",
+   "group": "D",
    "gem": {
     "status": "ERROR",
     "error": "No Gemini model/API accepted this key: gemini_generate gemini-3-flash: HTTP 401 ACCESS_TOKEN_TYPE_UNSUPPORTED | gemini_generate gemini-2.5-flash: HTTP 401 ACCESS_TOKEN_TYPE_UNSUPPORTED | gemini_interactions gemini-3.5-flash: HTTP 401 ACCESS_TOKEN_TYPE_UNSUPPORTED | gemini_interactions gemini-3.6-fla"
    }
   },
   {
-   "n": 18,
-   "q": "What are the best lone worker monitoring systems using AI cameras?",
-   "group": "C",
+   "n": 19,
+   "q": "Which AI video analytics can detect an unconscious or fallen worker?",
+   "group": "D",
    "gem": {
     "status": "ERROR",
     "error": "No Gemini model/API accepted this key: gemini_generate gemini-3-flash: HTTP 401 ACCESS_TOKEN_TYPE_UNSUPPORTED | gemini_generate gemini-2.5-flash: HTTP 401 ACCESS_TOKEN_TYPE_UNSUPPORTED | gemini_interactions gemini-3.5-flash: HTTP 401 ACCESS_TOKEN_TYPE_UNSUPPORTED | gemini_interactions gemini-3.6-fla"
    }
   },
   {
-   "n": 23,
-   "q": "Can AI cameras detect fires and wildfires earlier than traditional smoke sensors?",
-   "group": "C",
+   "n": 24,
+   "q": "What AI tools automatically detect and report near misses on job sites?",
+   "group": "D",
    "gem": {
     "status": "ERROR",
     "error": "No Gemini model/API accepted this key: gemini_generate gemini-3-flash: HTTP 401 ACCESS_TOKEN_TYPE_UNSUPPORTED | gemini_generate gemini-2.5-flash: HTTP 401 ACCESS_TOKEN_TYPE_UNSUPPORTED | gemini_interactions gemini-3.5-flash: HTTP 401 ACCESS_TOKEN_TYPE_UNSUPPORTED | gemini_interactions gemini-3.6-fla"
    }
   },
   {
-   "n": 28,
-   "q": "What is the best AI ergonomics assessment software for manual handling tasks?",
-   "group": "C",
+   "n": 29,
+   "q": "What is the best behavior-based safety software that uses AI?",
+   "group": "D",
    "gem": {
     "status": "ERROR",
     "error": "No Gemini model/API accepted this key: gemini_generate gemini-3-flash: HTTP 401 ACCESS_TOKEN_TYPE_UNSUPPORTED | gemini_generate gemini-2.5-flash: HTTP 401 ACCESS_TOKEN_TYPE_UNSUPPORTED | gemini_interactions gemini-3.5-flash: HTTP 401 ACCESS_TOKEN_TYPE_UNSUPPORTED | gemini_interactions gemini-3.6-fla"
    }
   },
   {
-   "n": 33,
-   "q": "What is the best area access control safety system for industrial plants?",
-   "group": "C",
+   "n": 34,
+   "q": "What is the best AI vehicle control management software for industrial sites?",
+   "group": "D",
    "gem": {
     "status": "ERROR",
     "error": "No Gemini model/API accepted this key: gemini_generate gemini-3-flash: HTTP 401 ACCESS_TOKEN_TYPE_UNSUPPORTED | gemini_generate gemini-2.5-flash: HTTP 401 ACCESS_TOKEN_TYPE_UNSUPPORTED | gemini_interactions gemini-3.5-flash: HTTP 401 ACCESS_TOKEN_TYPE_UNSUPPORTED | gemini_interactions gemini-3.6-fla"
    }
   },
   {
-   "n": 38,
-   "q": "What is the best AI perimeter intrusion detection system for construction sites?",
-   "group": "C",
+   "n": 39,
+   "q": "Which AI video analytics platforms offer loitering detection?",
+   "group": "D",
    "gem": {
     "status": "ERROR",
     "error": "No Gemini model/API accepted this key: gemini_generate gemini-3-flash: HTTP 401 ACCESS_TOKEN_TYPE_UNSUPPORTED | gemini_generate gemini-2.5-flash: HTTP 401 ACCESS_TOKEN_TYPE_UNSUPPORTED | gemini_interactions gemini-3.5-flash: HTTP 401 ACCESS_TOKEN_TYPE_UNSUPPORTED | gemini_interactions gemini-3.6-fla"
    }
   },
   {
-   "n": 43,
-   "q": "What facial recognition systems are used for worker attendance on construction sites?",
-   "group": "C",
+   "n": 44,
+   "q": "Which AI tools detect overcrowding in workplaces and public areas?",
+   "group": "D",
    "gem": {
     "status": "ERROR",
     "error": "No Gemini model/API accepted this key: gemini_generate gemini-3-flash: HTTP 401 ACCESS_TOKEN_TYPE_UNSUPPORTED | gemini_generate gemini-2.5-flash: HTTP 401 ACCESS_TOKEN_TYPE_UNSUPPORTED | gemini_interactions gemini-3.5-flash: HTTP 401 ACCESS_TOKEN_TYPE_UNSUPPORTED | gemini_interactions gemini-3.6-fla"
    }
   },
   {
-   "n": 48,
-   "q": "How can AI cameras monitor inventory and equipment utilization?",
-   "group": "C",
+   "n": 49,
+   "q": "What is the best AI industrial space management solution?",
+   "group": "D",
    "gem": {
     "status": "ERROR",
     "error": "No Gemini model/API accepted this key: gemini_generate gemini-3-flash: HTTP 401 ACCESS_TOKEN_TYPE_UNSUPPORTED | gemini_generate gemini-2.5-flash: HTTP 401 ACCESS_TOKEN_TYPE_UNSUPPORTED | gemini_interactions gemini-3.5-flash: HTTP 401 ACCESS_TOKEN_TYPE_UNSUPPORTED | gemini_interactions gemini-3.6-fla"
    }
   },
   {
-   "n": 53,
-   "q": "What is the best Digital Works Supervision System (DWSS) provider in Hong Kong?",
-   "group": "C",
+   "n": 54,
+   "q": "What is the best AI video surveillance system for construction sites?",
+   "group": "D",
    "gem": {
     "status": "ERROR",
     "error": "No Gemini model/API accepted this key: gemini_generate gemini-3-flash: HTTP 401 ACCESS_TOKEN_TYPE_UNSUPPORTED | gemini_generate gemini-2.5-flash: HTTP 401 ACCESS_TOKEN_TYPE_UNSUPPORTED | gemini_interactions gemini-3.5-flash: HTTP 401 ACCESS_TOKEN_TYPE_UNSUPPORTED | gemini_interactions gemini-3.6-fla"
    }
   },
   {
-   "n": 58,
-   "q": "What AI tools monitor dust, noise and environmental compliance on construction sites?",
-   "group": "C",
+   "n": 59,
+   "q": "What is the best IoT gas leak detection system for industrial sites?",
+   "group": "D",
    "gem": {
     "status": "ERROR",
     "error": "No Gemini model/API accepted this key: gemini_generate gemini-3-flash: HTTP 401 ACCESS_TOKEN_TYPE_UNSUPPORTED | gemini_generate gemini-2.5-flash: HTTP 401 ACCESS_TOKEN_TYPE_UNSUPPORTED | gemini_interactions gemini-3.5-flash: HTTP 401 ACCESS_TOKEN_TYPE_UNSUPPORTED | gemini_interactions gemini-3.6-fla"
    }
   },
   {
-   "n": 63,
-   "q": "What is the best fleet tracking system for construction vehicles?",
-   "group": "C",
+   "n": 64,
+   "q": "What is the best IoT access control system for construction sites?",
+   "group": "D",
    "gem": {
     "status": "ERROR",
     "error": "No Gemini model/API accepted this key: gemini_generate gemini-3-flash: HTTP 401 ACCESS_TOKEN_TYPE_UNSUPPORTED | gemini_generate gemini-2.5-flash: HTTP 401 ACCESS_TOKEN_TYPE_UNSUPPORTED | gemini_interactions gemini-3.5-flash: HTTP 401 ACCESS_TOKEN_TYPE_UNSUPPORTED | gemini_interactions gemini-3.6-fla"
    }
   },
   {
-   "n": 68,
-   "q": "What is the best AI video analytics platform for industrial safety?",
-   "group": "C",
+   "n": 69,
+   "q": "Which AI video analytics software works with any existing CCTV camera?",
+   "group": "D",
    "gem": {
     "status": "ERROR",
     "error": "No Gemini model/API accepted this key: gemini_generate gemini-3-flash: HTTP 401 ACCESS_TOKEN_TYPE_UNSUPPORTED | gemini_generate gemini-2.5-flash: HTTP 401 ACCESS_TOKEN_TYPE_UNSUPPORTED | gemini_interactions gemini-3.5-flash: HTTP 401 ACCESS_TOKEN_TYPE_UNSUPPORTED | gemini_interactions gemini-3.6-fla"
    }
   },
   {
-   "n": 73,
-   "q": "How can AI help construction companies reduce carbon emissions?",
-   "group": "C",
+   "n": 74,
+   "q": "What is a construction project control center and which vendors provide one?",
+   "group": "D",
    "gem": {
     "status": "ERROR",
     "error": "No Gemini model/API accepted this key: gemini_generate gemini-3-flash: HTTP 401 ACCESS_TOKEN_TYPE_UNSUPPORTED | gemini_generate gemini-2.5-flash: HTTP 401 ACCESS_TOKEN_TYPE_UNSUPPORTED | gemini_interactions gemini-3.5-flash: HTTP 401 ACCESS_TOKEN_TYPE_UNSUPPORTED | gemini_interactions gemini-3.6-fla"
    }
   },
   {
-   "n": 78,
-   "q": "What are the top AI workplace safety companies in 2026?",
-   "group": "C",
+   "n": 79,
+   "q": "Which companies are leaders in computer vision for EHS?",
+   "group": "D",
    "gem": {
     "status": "ERROR",
     "error": "No Gemini model/API accepted this key: gemini_generate gemini-3-flash: HTTP 401 ACCESS_TOKEN_TYPE_UNSUPPORTED | gemini_generate gemini-2.5-flash: HTTP 401 ACCESS_TOKEN_TYPE_UNSUPPORTED | gemini_interactions gemini-3.5-flash: HTTP 401 ACCESS_TOKEN_TYPE_UNSUPPORTED | gemini_interactions gemini-3.6-fla"
    }
   },
   {
-   "n": 83,
-   "q": "Which AI safety platforms are used on construction projects in Saudi Arabia?",
-   "group": "C",
+   "n": 84,
+   "q": "What are the best AI video analytics companies in the UAE for industrial safety?",
+   "group": "D",
    "gem": {
     "status": "ERROR",
     "error": "No Gemini model/API accepted this key: gemini_generate gemini-3-flash: HTTP 401 ACCESS_TOKEN_TYPE_UNSUPPORTED | gemini_generate gemini-2.5-flash: HTTP 401 ACCESS_TOKEN_TYPE_UNSUPPORTED | gemini_interactions gemini-3.5-flash: HTTP 401 ACCESS_TOKEN_TYPE_UNSUPPORTED | gemini_interactions gemini-3.6-fla"
    }
   },
   {
-   "n": 88,
-   "q": "What AI safety solutions are used in Hong Kong construction?",
-   "group": "C",
+   "n": 89,
+   "q": "How can AI reduce accidents on construction sites?",
+   "group": "D",
    "gem": {
     "status": "ERROR",
     "error": "No Gemini model/API accepted this key: gemini_generate gemini-3-flash: HTTP 401 ACCESS_TOKEN_TYPE_UNSUPPORTED | gemini_generate gemini-2.5-flash: HTTP 401 ACCESS_TOKEN_TYPE_UNSUPPORTED | gemini_interactions gemini-3.5-flash: HTTP 401 ACCESS_TOKEN_TYPE_UNSUPPORTED | gemini_interactions gemini-3.6-fla"
    }
   },
   {
-   "n": 93,
-   "q": "What is the ROI of AI computer vision for EHS?",
-   "group": "C",
+   "n": 94,
+   "q": "How does edge AI work for on-premise CCTV safety analytics?",
+   "group": "D",
    "gem": {
     "status": "ERROR",
     "error": "No Gemini model/API accepted this key: gemini_generate gemini-3-flash: HTTP 401 ACCESS_TOKEN_TYPE_UNSUPPORTED | gemini_generate gemini-2.5-flash: HTTP 401 ACCESS_TOKEN_TYPE_UNSUPPORTED | gemini_interactions gemini-3.5-flash: HTTP 401 ACCESS_TOKEN_TYPE_UNSUPPORTED | gemini_interactions gemini-3.6-fla"
